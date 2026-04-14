@@ -1,13 +1,15 @@
+import { ClipboardList, Bell, BarChart2, FileText, PhoneMissed, Repeat2 } from "lucide-react";
+
 export default function SMB() {
   return (
     <div className="pg-smb">
       {/* NAV */}
       <nav>
-        <span className="nav-logo">vision</span>
+        <a href="/" className="nav-logo">vision</a>
         <div className="nav-right">
-          <a href="#how" className="nav-link">How it works</a>
-          <a href="#wins" className="nav-link">Examples</a>
-          <a href="#audit" className="btn-nav">Get a free audit</a>
+          <a href="/smb" className="nav-link">For businesses</a>
+          <a href="/startups" className="nav-link">For startups</a>
+          <a href="#cta" className="btn-nav">Get a free audit</a>
         </div>
       </nav>
 
@@ -27,7 +29,7 @@ export default function SMB() {
         </p>
 
         <div className="hero-cta">
-          <a href="#audit" className="btn-primary">Show me what I can save →</a>
+          <a href="#cta" className="btn-primary">Show me what I can save →</a>
           <a href="#wins" className="btn-ghost">See real examples</a>
         </div>
 
@@ -60,32 +62,32 @@ export default function SMB() {
 
         <div className="problems-grid">
           <div className="problem-card">
-            <span className="problem-emoji">📋</span>
+            <span className="problem-emoji"><ClipboardList /></span>
             <h3>Copying the same data into multiple places</h3>
             <p>Your team fills in the same client info in 3 different systems. Every single time. Manually.</p>
           </div>
           <div className="problem-card">
-            <span className="problem-emoji">📧</span>
+            <span className="problem-emoji"><Bell /></span>
             <h3>Chasing people for updates</h3>
             <p>Half your week is follow-up emails and Slack messages just checking if things got done.</p>
           </div>
           <div className="problem-card">
-            <span className="problem-emoji">📊</span>
+            <span className="problem-emoji"><BarChart2 /></span>
             <h3>Building the same report every Monday morning</h3>
             <p>Someone sits down and copy-pastes numbers into a spreadsheet. Before any real work starts.</p>
           </div>
           <div className="problem-card">
-            <span className="problem-emoji">🧾</span>
+            <span className="problem-emoji"><FileText /></span>
             <h3>Invoicing that eats your evenings</h3>
             <p>Creating, sending, and chasing invoices takes hours every single week.</p>
           </div>
           <div className="problem-card">
-            <span className="problem-emoji">📞</span>
+            <span className="problem-emoji"><PhoneMissed /></span>
             <h3>Leads that fall through the cracks</h3>
             <p>New enquiries come in and someone has to manually log them, or they just get lost.</p>
           </div>
           <div className="problem-card">
-            <span className="problem-emoji">🔁</span>
+            <span className="problem-emoji"><Repeat2 /></span>
             <h3>&ldquo;We always do it this way&rdquo;</h3>
             <p>If your team has a routine they do the same way every time, it can probably run itself.</p>
           </div>
@@ -262,7 +264,7 @@ export default function SMB() {
       </section>
 
       {/* CTA */}
-      <section className="cta-section" id="audit">
+      <section className="cta-section" id="cta">
         <h2>
           Find out what you&apos;re
           <br />
@@ -279,6 +281,11 @@ export default function SMB() {
       {/* FOOTER */}
       <footer>
         <span className="footer-logo">vision</span>
+        <div className="footer-links">
+          <a href="/smb" className="footer-link">For businesses</a>
+          <a href="/startups" className="footer-link">For startups</a>
+          <a href="#cta" className="footer-link">Get a free audit</a>
+        </div>
         <span className="footer-note">© 2026 vision. All rights reserved.</span>
       </footer>
     </div>
