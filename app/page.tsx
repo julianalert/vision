@@ -9,7 +9,7 @@ export default function Home() {
         <div className="nav-right">
           <a href="/smb" className="nav-link">For businesses</a>
           <a href="/startups" className="nav-link">For startups</a>
-          <a href="#cta" className="btn-nav">Get a free audit</a>
+          <a href="/qualify" className="btn-nav">See if I qualify</a>
         </div>
       </nav>
 
@@ -22,7 +22,7 @@ export default function Home() {
             <em>disappear</em>
           </h1>
           <p className="hero-sub">
-            Whatever your team does manually, over and over — we automate it.
+            Whatever your team does manually, over and over. We automate it.
             So the people you pay to think can stop doing the work you pay
             machines for.
           </p>
@@ -149,15 +149,15 @@ export default function Home() {
         </h2>
         <p className="section-sub">
           We&apos;ve done this enough times to make it fast. You don&apos;t need to
-          figure out what to automate — that&apos;s our job.
+          figure out what to automate. That&apos;s our job.
         </p>
 
         <div className="how-grid">
           <div className="how-card">
             <div className="how-card-num">01</div>
-            <h3>Free audit — we find where you&apos;re bleeding hours</h3>
+            <h3>Free audit: we find where you&apos;re bleeding hours</h3>
             <p>
-              One 45-minute call. You walk us through a typical week. We
+              One 30-minute call. You walk us through a typical week. We
               identify the 3 tasks that are costing you the most time and are
               easiest to automate. No commitment, no jargon.
             </p>
@@ -194,8 +194,8 @@ export default function Home() {
           <em>Both wasting hours they shouldn&apos;t be.</em>
         </h2>
         <p className="section-sub">
-          We&apos;ve built solutions for both. Pick whichever sounds more like you
-          — the page will speak your language.
+          We&apos;ve built solutions for both. Pick whichever sounds more like you.
+          The page will speak your language.
         </p>
 
         <div className="profiles-grid">
@@ -208,8 +208,8 @@ export default function Home() {
             </h3>
             <p>
               Plumbers, agencies, retailers, practices, studios. If your team is
-              doing the same things manually every week — invoicing, reporting,
-              onboarding, following up — we make those stop.
+              doing the same things manually every week: invoicing, reporting,
+              onboarding, following up. We make those stop.
             </p>
             <div className="profile-tags">
               <span className="profile-tag">Invoicing</span>
@@ -230,7 +230,7 @@ export default function Home() {
             <p>
               Seed to Series A. If you&apos;re a founder still writing cold emails
               yourself, or your one marketer is drowning in tasks a system
-              should handle — we build the engine so you don&apos;t have to run it.
+              should handle. We build the engine so you don&apos;t have to run it.
             </p>
             <div className="profile-tags">
               <span className="profile-tag">Outbound prospecting</span>
@@ -259,7 +259,7 @@ export default function Home() {
             <div>
               <div className="t-name">Sarah R.</div>
               <div className="t-role">
-                Owner, independent retail business — 8 employees
+                Owner, independent retail business, 8 employees
               </div>
             </div>
           </div>
@@ -274,15 +274,15 @@ export default function Home() {
           <em>That&apos;s what the audit is for.</em>
         </h2>
         <p>
-          Book a free 45-minute call. We&apos;ll find the tasks eating your team&apos;s
+          Book a free 30-minute call. We&apos;ll find the tasks eating your team&apos;s
           time and tell you exactly what&apos;s automatable, how long it takes, and
           what it saves. No pitch, no commitment.
         </p>
-        <a href="#" className="btn-primary">
-          Book my free audit →
+        <a href="/qualify" className="btn-primary">
+          See if I qualify →
         </a>
         <span className="cta-note">
-          45 minutes. No commitment. Just a straight answer.
+          30 minutes. No commitment. Just a straight answer.
         </span>
       </section>
 
@@ -292,7 +292,7 @@ export default function Home() {
         <div className="footer-links">
           <a href="/smb" className="footer-link">For businesses</a>
           <a href="/startups" className="footer-link">For startups</a>
-          <a href="#cta" className="footer-link">Get a free audit</a>
+          <a href="/qualify" className="footer-link">See if I qualify</a>
         </div>
         <span className="footer-note">© 2026 vision. All rights reserved.</span>
       </footer>

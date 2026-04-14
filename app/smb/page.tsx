@@ -9,7 +9,7 @@ export default function SMB() {
         <div className="nav-right">
           <a href="/smb" className="nav-link">For businesses</a>
           <a href="/startups" className="nav-link">For startups</a>
-          <a href="#cta" className="btn-nav">Get a free audit</a>
+          <a href="/qualify" className="btn-nav">See if I qualify</a>
         </div>
       </nav>
 
@@ -29,7 +29,7 @@ export default function SMB() {
         </p>
 
         <div className="hero-cta">
-          <a href="#cta" className="btn-primary">Show me what I can save →</a>
+          <a href="/qualify" className="btn-primary">Show me what I can save →</a>
           <a href="#wins" className="btn-ghost">See real examples</a>
         </div>
 
@@ -274,7 +274,7 @@ export default function SMB() {
           Book a free 30-minute audit. We&apos;ll tell you exactly which tasks are automatable, how
           many hours they&apos;re costing you, and what it would take to fix them.
         </p>
-        <a href="#" className="btn-primary">Book my free audit →</a>
+        <a href="/qualify" className="btn-primary">See if I qualify →</a>
         <p className="cta-note">No commitment. No jargon. Just a straight answer on what you can save.</p>
       </section>
 
@@ -284,7 +284,7 @@ export default function SMB() {
         <div className="footer-links">
           <a href="/smb" className="footer-link">For businesses</a>
           <a href="/startups" className="footer-link">For startups</a>
-          <a href="#cta" className="footer-link">Get a free audit</a>
+          <a href="/qualify" className="footer-link">See if I qualify</a>
         </div>
         <span className="footer-note">© 2026 vision. All rights reserved.</span>
       </footer>

@@ -9,7 +9,7 @@ export default function Home() {
         <div className="nav-right">
           <a href="/smb" className="nav-link">For businesses</a>
           <a href="/startups" className="nav-link">For startups</a>
-          <a href="#cta" className="btn-nav">Get a free audit</a>
+          <a href="/qualify" className="btn-nav">See if I qualify</a>
         </div>
       </nav>
 
@@ -28,7 +28,7 @@ export default function Home() {
         </p>
 
         <div className="hero-cta">
-          <a href="#cta" className="btn-primary">Book a free strategy call →</a>
+          <a href="/qualify" className="btn-primary">See if I qualify →</a>
           <a href="#results" className="btn-ghost">See what&apos;s possible</a>
         </div>
 
@@ -89,7 +89,7 @@ export default function Home() {
           </div>
           <div className="pain-card" data-num="06">
             <h3>&ldquo;Honestly I don&apos;t know which of our channels is actually bringing in customers&rdquo;</h3>
-            <p>You spend money on ads, post content, send emails — and have no idea what&apos;s working or what to double down on.</p>
+            <p>You spend money on ads, post content, send emails, and have no idea what&apos;s working or what to double down on.</p>
           </div>
           <div className="pain-card" data-num="07">
             <h3>&ldquo;Every new user gets a slightly different onboarding depending on who&apos;s free that day&rdquo;</h3>
@@ -155,7 +155,7 @@ export default function Home() {
           <div className="service-card">
             <div className="service-icon"><Zap /></div>
             <h3>Instant lead response &amp; qualification</h3>
-            <p>The moment a lead fills a form or books a demo, they get a personalised response, get scored, and land in the right sequence — in under 2 minutes.</p>
+            <p>The moment a lead fills a form or books a demo, they get a personalised response, get scored, and land in the right sequence, in under 2 minutes.</p>
             <span className="service-tag">Pipeline velocity</span>
           </div>
           <div className="service-card">
@@ -173,7 +173,7 @@ export default function Home() {
           <div className="service-card">
             <div className="service-icon"><PenLine /></div>
             <h3>Content &amp; LinkedIn engine</h3>
-            <p>A weekly content pipeline generated from your POV, your voice, your insights — reviewed and published without you writing from scratch.</p>
+            <p>A weekly content pipeline generated from your POV, your voice, your insights, reviewed and published without you writing from scratch.</p>
             <span className="service-tag">Inbound</span>
           </div>
           <div className="service-card">
@@ -200,42 +200,42 @@ export default function Home() {
           Specific problems we&apos;ve <em>already fixed</em>
         </h2>
         <p className="section-sub">
-          Not vague &ldquo;growth outcomes.&rdquo; Actual annoying things that were eating founders&apos; time — and aren&apos;t anymore.
+          Not vague &ldquo;growth outcomes.&rdquo; Actual annoying things that were eating founders&apos; time. Not anymore.
         </p>
 
         <div className="results-grid">
           <div className="result-card">
-            <span className="result-tag">B2B SaaS — Seed stage</span>
+            <span className="result-tag">B2B SaaS, Seed stage</span>
             <div className="result-metric">0→40</div>
             <div className="result-label">demos booked per month, founder stopped writing cold emails himself</div>
             <div className="result-desc">He was spending 2 hours a night prospecting manually. We built a system that finds the right people, personalises outreach, and books calls without him touching it.</div>
           </div>
           <div className="result-card">
-            <span className="result-tag">Dev tools — Series A</span>
+            <span className="result-tag">Dev tools, Series A</span>
             <div className="result-metric">4.2×</div>
             <div className="result-label">trial-to-paid conversion, signups stopped going quiet after day 3</div>
             <div className="result-desc">Users would sign up, poke around, and disappear. We built triggered emails based on what they did and didn&apos;t do in the product. Most never needed a sales call after that.</div>
           </div>
           <div className="result-card">
-            <span className="result-tag">Marketplace — Pre-seed</span>
+            <span className="result-tag">Marketplace, Pre-seed</span>
             <div className="result-metric">-71%</div>
             <div className="result-label">cost per qualified lead, sales team stopped wasting calls on bad leads</div>
             <div className="result-desc">They were spending half their day on calls that went nowhere. We built automatic scoring so they only talk to people who&apos;ve already shown they&apos;re serious.</div>
           </div>
           <div className="result-card">
-            <span className="result-tag">HR Tech — Series A</span>
+            <span className="result-tag">HR Tech, Series A</span>
             <div className="result-metric">11 hrs</div>
             <div className="result-label">freed per week, their one marketer finally got to do actual marketing</div>
             <div className="result-desc">She was spending her whole week scheduling posts, pulling reports, and sending follow-ups by hand. We automated all of it. She now works on strategy instead.</div>
           </div>
           <div className="result-card">
-            <span className="result-tag">Fintech — Seed</span>
+            <span className="result-tag">Fintech, Seed</span>
             <div className="result-metric">2 min</div>
             <div className="result-label">lead response time, inbound leads stopped going cold before anyone replied</div>
             <div className="result-desc">Someone would fill in the contact form and hear nothing for hours. We built instant enrichment and a personalised response that goes out in under 2 minutes. Demo bookings up 38%.</div>
           </div>
           <div className="result-card">
-            <span className="result-tag">B2B SaaS — Pre-seed</span>
+            <span className="result-tag">B2B SaaS, Pre-seed</span>
             <div className="result-metric">$0</div>
             <div className="result-label">ad spend, 200 waitlist signups in 6 weeks, entirely organic</div>
             <div className="result-desc">No budget, no agency, no growth hacker. Just a LinkedIn content engine built around the founder&apos;s actual opinions, and a simple referral loop. Six weeks.</div>
@@ -335,7 +335,7 @@ export default function Home() {
           </p>
         </div>
         <div className="cta-right">
-          <a href="#" className="btn-light">Book a free 30-minute call →</a>
+          <a href="/qualify" className="btn-light">See if I qualify →</a>
           <span className="cta-note">No pitch deck. No commitment. Just a straight conversation.</span>
         </div>
       </section>
@@ -346,7 +346,7 @@ export default function Home() {
         <div className="footer-links">
           <a href="/smb" className="footer-link">For businesses</a>
           <a href="/startups" className="footer-link">For startups</a>
-          <a href="#cta" className="footer-link">Get a free audit</a>
+          <a href="/qualify" className="footer-link">See if I qualify</a>
         </div>
         <span className="footer-note">© 2026 vision. All rights reserved.</span>
       </footer>
