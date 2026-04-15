@@ -1,4 +1,29 @@
 import { ClipboardList, Bell, BarChart2, FileText, PhoneMissed, Repeat2 } from "lucide-react";
+import TeamSection from "../components/TeamSection";
+import FAQ from "../components/FAQ";
+
+const smbFAQ = [
+  {
+    q: "Do I need to be technical to work with you?",
+    a: "Not at all. You describe the problem in plain English: 'every Monday I manually copy last week's numbers into a spreadsheet'. We handle everything from there. You never need to touch a line of code.",
+  },
+  {
+    q: "What tools do you integrate with?",
+    a: "Most of the common ones: Google Workspace, Microsoft 365, Xero, QuickBooks, HubSpot, Salesforce, Airtable, Notion, Slack, and many more. If you're using something more niche, just ask. We'll tell you if it's possible.",
+  },
+  {
+    q: "How do I know which tasks are actually worth automating?",
+    a: "That's exactly what the free audit is for. We'll look at your week, identify where the hours are going, and tell you which tasks have the highest return on automation. You don't need to figure that out yourself.",
+  },
+  {
+    q: "How small is 'small business'? Do you have a minimum size?",
+    a: "We've worked with businesses of 3 people and businesses of 80. What matters isn't headcount. It's whether repetitive manual work is costing you meaningful time or money. If it is, we can help.",
+  },
+  {
+    q: "What's included in the free audit?",
+    a: "A 30-minute call where you walk us through a typical week. We'll identify your top 3 time-wasting tasks, explain what it would take to automate each, and give you an honest read on what the impact would be. No commitment required.",
+  },
+];
 
 export default function SMB() {
   return (
@@ -248,7 +273,6 @@ export default function SMB() {
         </p>
 
         <div className="industries-wrap">
-          <span className="ind-pill">Plumbers &amp; tradespeople</span>
           <span className="ind-pill">Real estate agents</span>
           <span className="ind-pill">Car dealerships</span>
           <span className="ind-pill">Post-production studios</span>
@@ -260,8 +284,13 @@ export default function SMB() {
           <span className="ind-pill">Recruitment firms</span>
           <span className="ind-pill">Logistics companies</span>
           <span className="ind-pill">Any business with repetitive admin</span>
+          <span className="ind-pill">Construction &amp; tradespeople</span>
         </div>
       </section>
+
+      <div className="divider" />
+
+      <TeamSection />
 
       {/* CTA */}
       <section className="cta-section" id="cta">
@@ -275,8 +304,10 @@ export default function SMB() {
           many hours they&apos;re costing you, and what it would take to fix them.
         </p>
         <a href="/qualify" className="btn-primary">See if I qualify →</a>
-        <p className="cta-note">No commitment. No jargon. Just a straight answer on what you can save.</p>
+        <p className="cta-note">2 spots left only</p>
       </section>
+
+      <FAQ items={smbFAQ} />
 
       {/* FOOTER */}
       <footer>

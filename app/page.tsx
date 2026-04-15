@@ -1,4 +1,31 @@
+import Image from "next/image";
 import TaskWidget from "./components/TaskWidget";
+import TrustedBy from "./components/TrustedBy";
+import TeamSection from "./components/TeamSection";
+import FAQ from "./components/FAQ";
+
+const homeFAQ = [
+  {
+    q: "What kinds of tasks can you actually automate?",
+    a: "Anything your team does repeatedly in a predictable way: data entry across systems, lead follow-up, report generation, invoice creation, client onboarding sequences, internal notifications, and more. If someone on your team does the same thing more than a few times a week, it's almost certainly automatable.",
+  },
+  {
+    q: "How long before we see results?",
+    a: "The first automation is typically live within 3 weeks of kick-off. Results are visible from day one of go-live: hours saved, tasks eliminated. We don't do 3-month strategy phases before building anything.",
+  },
+  {
+    q: "Does my team need to learn new software?",
+    a: "No. We build automations that work inside the tools you already use. Your team's day-to-day doesn't change. Tasks just stop requiring them.",
+  },
+  {
+    q: "What does it cost?",
+    a: "It depends on scope. We start with a free audit to identify what's worth fixing, then propose a plan with clear pricing before any work begins. No surprises.",
+  },
+  {
+    q: "What if something breaks after you've built it?",
+    a: "We monitor every automation we build and fix issues as they arise. You're not left holding the bag after handover.",
+  },
+];
 
 export default function Home() {
   return (
@@ -38,8 +65,6 @@ export default function Home() {
         <TaskWidget />
       </section>
 
-      <div className="divider" />
-
       {/* NUMBERS BAR */}
       <div className="stats-section">
         <div className="stats-inner">
@@ -61,6 +86,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <TrustedBy />
 
       {/* WHAT WE DO */}
       <section className="section" id="what">
@@ -249,22 +276,32 @@ export default function Home() {
       <section className="section">
         <div className="testimonial-block">
           <blockquote>
-            &ldquo;I didn&apos;t care if it was AI or someone in an office somewhere. I
-            just wanted to stop having my team do the same thing four times
-            every time we got a new customer. They fixed it in two weeks. I
-            haven&apos;t thought about it since.&rdquo;
+            &ldquo;We build software to automate finance for other companies. And we were still doing our own
+            internal reporting by hand every week. It took vision about two weeks to fix something we&apos;d
+            been tolerating for two years.{" "}
+            <strong>Slightly embarrassing in retrospect.</strong>&rdquo;
           </blockquote>
           <div className="t-attr">
-            <div className="t-avatar">SR</div>
+            <div className="t-avatar">
+              <Image
+                src="/images/testimonials/christophel.jpeg"
+                alt="Christophe Lassuyt"
+                width={36}
+                height={36}
+                style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top", borderRadius: "50%" }}
+              />
+            </div>
             <div>
-              <div className="t-name">Sarah R.</div>
-              <div className="t-role">
-                Owner, independent retail business, 8 employees
-              </div>
+              <div className="t-name">Christophe Lassuyt</div>
+              <div className="t-role">CEO &amp; Co-founder, Request Finance (YC W17)</div>
             </div>
           </div>
         </div>
       </section>
+
+      <div className="divider" />
+
+      <TeamSection />
 
       {/* CTA */}
       <section className="pg-home-cta" id="cta">
@@ -281,10 +318,10 @@ export default function Home() {
         <a href="/qualify" className="btn-primary">
           See if I qualify →
         </a>
-        <span className="cta-note">
-          30 minutes. No commitment. Just a straight answer.
-        </span>
+        <span className="cta-note">2 spots left only</span>
       </section>
+
+      <FAQ items={homeFAQ} />
 
       {/* FOOTER */}
       <footer>

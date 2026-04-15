@@ -9,7 +9,7 @@ export type FormState = {
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-const RECIPIENTS = ["julianalert@gmail.com", "clement.bernard21@gmail.com"];
+const RECIPIENTS = ["juliend@visionbds.com", "clementb@visionbds.com"];
 
 export async function submitQualify(
   _prevState: FormState,
@@ -32,29 +32,29 @@ export async function submitQualify(
     return { status: "error", error: "Please enter a valid email address." };
   }
 
-  try {
-    await resend.emails.send({
-      from: process.env.FROM_EMAIL ?? "Vision <onboarding@resend.dev>",
-      to: RECIPIENTS,
-      subject: `New qualification submission: ${name} from ${company}`,
-      text: [
-        "New qualification form submission",
-        "",
-        `Name:              ${name}`,
-        `Email:             ${email}`,
-        `Company:           ${company}`,
-        `Business type:     ${businessType}`,
-        `Team size:         ${teamSize}`,
-        `Hours lost / week: ${hoursLost}`,
-        "",
-        "Biggest challenge:",
-        challenge,
-      ].join("\n"),
-    });
+  const { error } = await resend.emails.send({
+    from: process.env.FROM_EMAIL ?? "Vision <onboarding@resend.dev>",
+    to: RECIPIENTS,
+    subject: `New qualification submission: ${name} from ${company}`,
+    text: [
+      "New qualification form submission",
+      "",
+      `Name:              ${name}`,
+      `Email:             ${email}`,
+      `Company:           ${company}`,
+      `Business type:     ${businessType}`,
+      `Team size:         ${teamSize}`,
+      `Hours lost / week: ${hoursLost}`,
+      "",
+      "Biggest challenge:",
+      challenge,
+    ].join("\n"),
+  });
 
-    return { status: "success" };
-  } catch (err) {
-    console.error("[submitQualify] Resend error:", err);
+  if (error) {
+    console.error("[submitQualify] Resend error:", error);
     return { status: "error", error: "Something went wrong. Please try again." };
   }
+
+  return { status: "success" };
 }

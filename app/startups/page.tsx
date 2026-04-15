@@ -1,4 +1,34 @@
+import Image from "next/image";
 import { Zap, Mail, RefreshCw, PenLine, Target, BarChart2 } from "lucide-react";
+import TeamSection from "../components/TeamSection";
+import FAQ from "../components/FAQ";
+
+const startupsFAQ = [
+  {
+    q: "We're pre-product/market fit. Is this too early for us?",
+    a: "Probably, yes. We work best with startups that already have customers and a repeatable process, even a manual one. If you're still figuring out who you're building for, come back once you have some traction. We'll be more useful then.",
+  },
+  {
+    q: "How is this different from hiring a growth marketer?",
+    a: "A marketer makes decisions. We build the infrastructure so those decisions run themselves. Ideally you eventually have both, but we make sure your marketer spends their time on strategy, not on tasks a system could handle.",
+  },
+  {
+    q: "Do you work with our existing CRM and tools?",
+    a: "Yes. We audit what you already have and build around it. We don't ask you to rip and replace your stack. We connect the pieces that aren't talking to each other and automate the work happening in the gaps.",
+  },
+  {
+    q: "How quickly will we see pipeline results?",
+    a: "The first system is live within 3 weeks. Pipeline impact depends on your market and current baseline, but most clients see measurable changes in lead volume or response time within the first month.",
+  },
+  {
+    q: "What happens when the engagement ends?",
+    a: "The systems keep running. We document everything, hand over full ownership, and can stay on for maintenance if you want. You're never dependent on us to keep the lights on.",
+  },
+  {
+    q: "Do you work with pre-seed companies with no marketing budget?",
+    a: "Sometimes. If there's a clear operational problem we can solve quickly (outbound prospecting, inbound response, onboarding) we can make a meaningful difference even on a lean budget. The audit will tell you if it makes sense at your stage.",
+  },
+];
 
 export default function Home() {
   return (
@@ -261,10 +291,18 @@ export default function Home() {
               outreach once. <strong>The meetings were just showing up.</strong>&rdquo;
             </blockquote>
             <div className="t-attr">
-              <div className="t-avatar">JK</div>
+              <div className="t-avatar">
+                <Image
+                  src="/images/testimonials/simran.png"
+                  alt="Simran Agarwal"
+                  width={36}
+                  height={36}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top", borderRadius: "50%" }}
+                />
+              </div>
               <div>
-                <div className="t-name">Jamie K.</div>
-                <div className="t-role">Co-founder &amp; CEO, Stackly (B2B SaaS, Seed)</div>
+                <div className="t-name">Simran Agarwal</div>
+                <div className="t-role">Head of Ecosystem, Web3 Finance Club &amp; Request Finance</div>
               </div>
             </div>
           </div>
@@ -275,10 +313,18 @@ export default function Home() {
               <strong>Now she actually does what I hired her for.</strong>&rdquo;
             </blockquote>
             <div className="t-attr">
-              <div className="t-avatar">ML</div>
+              <div className="t-avatar">
+                <Image
+                  src="/images/testimonials/christophel.jpeg"
+                  alt="Christophe Lassuyt"
+                  width={36}
+                  height={36}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top", borderRadius: "50%" }}
+                />
+              </div>
               <div>
-                <div className="t-name">Maya L.</div>
-                <div className="t-role">VP Growth, Meridian (HR Tech, Series A)</div>
+                <div className="t-name">Christophe Lassuyt</div>
+                <div className="t-role">CEO &amp; Co-founder, Request Finance (YC W17)</div>
               </div>
             </div>
           </div>
@@ -321,6 +367,10 @@ export default function Home() {
         </div>
       </section>
 
+      <div className="divider" />
+
+      <TeamSection />
+
       {/* CTA */}
       <section className="cta-section" id="cta">
         <div>
@@ -336,9 +386,11 @@ export default function Home() {
         </div>
         <div className="cta-right">
           <a href="/qualify" className="btn-light">See if I qualify →</a>
-          <span className="cta-note">No pitch deck. No commitment. Just a straight conversation.</span>
+          <span className="cta-note">2 spots left only</span>
         </div>
       </section>
+
+      <FAQ items={startupsFAQ} />
 
       {/* FOOTER */}
       <footer>
