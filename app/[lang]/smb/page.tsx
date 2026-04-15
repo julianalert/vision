@@ -1,6 +1,7 @@
 import { ClipboardList, Bell, BarChart2, FileText, PhoneMissed, Repeat2 } from "lucide-react";
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "../dictionaries";
+import { buildAlternates, buildCanonical } from "../meta";
 import TeamSection from "../../components/TeamSection";
 import FAQ from "../../components/FAQ";
 import LanguagePicker from "../../components/LanguagePicker";
@@ -13,7 +14,14 @@ export async function generateMetadata({ params }: Props) {
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
   const dict = await getDictionary(lang);
-  return { title: dict.smb.meta.title, description: dict.smb.meta.description };
+  return {
+    title: dict.smb.meta.title,
+    description: dict.smb.meta.description,
+    alternates: {
+      canonical: buildCanonical(lang, "/smb"),
+      languages: buildAlternates("/smb").languages,
+    },
+  };
 }
 
 export default async function SMB({ params }: Props) {

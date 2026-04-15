@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "../dictionaries";
+import { buildAlternates, buildCanonical } from "../meta";
 import TeamSection from "../../components/TeamSection";
 import LanguagePicker from "../../components/LanguagePicker";
 
@@ -12,6 +13,10 @@ export async function generateMetadata({ params }: Props) {
   return {
     title: `${dict.teamSection.label} — vision`,
     description: dict.teamSection.sub,
+    alternates: {
+      canonical: buildCanonical(lang, "/team"),
+      languages: buildAlternates("/team").languages,
+    },
   };
 }
 

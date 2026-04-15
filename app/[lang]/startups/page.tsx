@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Zap, Mail, RefreshCw, PenLine, Target, BarChart2 } from "lucide-react";
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "../dictionaries";
+import { buildAlternates, buildCanonical } from "../meta";
 import TeamSection from "../../components/TeamSection";
 import FAQ from "../../components/FAQ";
 import LanguagePicker from "../../components/LanguagePicker";
@@ -14,7 +15,14 @@ export async function generateMetadata({ params }: Props) {
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
   const dict = await getDictionary(lang);
-  return { title: dict.startups.meta.title, description: dict.startups.meta.description };
+  return {
+    title: dict.startups.meta.title,
+    description: dict.startups.meta.description,
+    alternates: {
+      canonical: buildCanonical(lang, "/startups"),
+      languages: buildAlternates("/startups").languages,
+    },
+  };
 }
 
 export default async function Startups({ params }: Props) {

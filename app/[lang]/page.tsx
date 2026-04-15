@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "./dictionaries";
+import { buildAlternates, buildCanonical } from "./meta";
 import TaskWidget from "../components/TaskWidget";
 import TrustedBy from "../components/TrustedBy";
 import TeamSection from "../components/TeamSection";
@@ -13,7 +14,14 @@ export async function generateMetadata({ params }: Props) {
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
   const dict = await getDictionary(lang);
-  return { title: dict.home.meta.title, description: dict.home.meta.description };
+  return {
+    title: dict.home.meta.title,
+    description: dict.home.meta.description,
+    alternates: {
+      canonical: buildCanonical(lang),
+      languages: buildAlternates().languages,
+    },
+  };
 }
 
 export default async function Home({ params }: Props) {

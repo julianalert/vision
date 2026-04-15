@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "../dictionaries";
+import { buildAlternates, buildCanonical } from "../meta";
 import QualifyForm from "../../components/QualifyForm";
 import FAQ from "../../components/FAQ";
 import LanguagePicker from "../../components/LanguagePicker";
@@ -10,7 +11,14 @@ export async function generateMetadata({ params }: Props) {
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
   const dict = await getDictionary(lang);
-  return { title: dict.qualify.meta.title, description: dict.qualify.meta.description };
+  return {
+    title: dict.qualify.meta.title,
+    description: dict.qualify.meta.description,
+    alternates: {
+      canonical: buildCanonical(lang, "/qualify"),
+      languages: buildAlternates("/qualify").languages,
+    },
+  };
 }
 
 export default async function QualifyPage({ params }: Props) {
