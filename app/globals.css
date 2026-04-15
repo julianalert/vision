@@ -1049,7 +1049,7 @@ footer {
   line-height: 1.5;
 }
 .example-before::before {
-  content: 'Before';
+  content: attr(data-label);
   font-size: 10px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1079,7 +1079,7 @@ footer {
   line-height: 1.5;
 }
 .example-after::before {
-  content: 'After';
+  content: attr(data-label);
   font-size: 10px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1809,4 +1809,39 @@ footer {
   .qualify-card { padding: 28px 24px; }
   .form-row { grid-template-columns: 1fr; }
   .form-submit-row { flex-direction: column; align-items: flex-start; }
+}
+
+/* ── LANGUAGE PICKER ── */
+.lang-picker {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--border-med);
+  border-radius: 6px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.lang-option {
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+  letter-spacing: 0.06em;
+  line-height: 1;
+}
+
+.lang-option + .lang-option {
+  border-left: 1px solid var(--border);
+}
+
+.lang-active {
+  background: var(--text);
+  color: var(--bg);
+}
+
+.lang-option:hover:not(.lang-active) {
+  background: var(--bg-raised);
+  color: var(--text);
 }

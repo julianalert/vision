@@ -1,0 +1,403 @@
+{
+  "nav": {
+    "forBusinesses": "For businesses",
+    "forStartups": "For startups",
+    "qualify": "See if I qualify"
+  },
+  "footer": {
+    "forBusinesses": "For businesses",
+    "forStartups": "For startups",
+    "qualify": "See if I qualify",
+    "copyright": "© 2026 vision. All rights reserved."
+  },
+  "trustedBy": {
+    "label": "Trusted by teams from"
+  },
+  "faqSection": {
+    "label": "FAQ",
+    "title": "Common questions"
+  },
+  "taskWidget": {
+    "label": "Tasks running right now",
+    "tasks": [
+      { "text": "Invoice sent to Harwick & Co", "done": true },
+      { "text": "Lead from contact form qualified & routed", "done": true },
+      { "text": "Weekly performance report compiled", "done": true },
+      { "text": "Follow-up sent to 3 cold leads (day 7)", "done": true },
+      { "text": "Onboarding email sequence — new signup", "done": false, "tag": "Running" },
+      { "text": "Monday recap email — scheduled 6pm", "done": false, "tag": "Running" }
+    ],
+    "autoTag": "Auto",
+    "footerNum": "14 hrs",
+    "footerText": " saved this week",
+    "footerBadge": "All systems running"
+  },
+  "teamSection": {
+    "label": "The team",
+    "h2_before": "Built by people who've ",
+    "h2_em": "done this before",
+    "sub": "Three co-founders with backgrounds in product, marketing, and strategy. We started vision because we kept seeing the same hours being wasted across every business we worked with.",
+    "linkedin": "LinkedIn →",
+    "members": [
+      {
+        "name": "Clément Bernard",
+        "role": "Co-founder, Marketing & Growth",
+        "bio": "12 years in content strategy and search marketing. Built and scaled digital audiences across sport, finance, and tech. Knows exactly which marketing tasks should never require a human."
+      },
+      {
+        "name": "Clément Samson",
+        "role": "Co-founder, Strategy & Business Development",
+        "bio": "International business development leader with 11 years across consulting and high-growth ventures. Formerly at Arthur D. Little and Tasama (PIF). Identifies the operational gaps worth fixing."
+      },
+      {
+        "name": "Julien Devoir",
+        "role": "Co-founder, Product & Systems",
+        "bio": "14 years building digital products and growth systems. Formerly Head of Product at Request Network and growth lead at Molotov TV. Designs the automations so they actually work in the real world."
+      }
+    ]
+  },
+  "home": {
+    "meta": {
+      "title": "Your marketing engine running 24/7 without the headcount — vision.",
+      "description": "We build automated marketing systems that generate leads, nurture them, and convert them while your team stays focused on building the product."
+    },
+    "hero": {
+      "tag": "AI automation agency",
+      "h1_start": "We make the repetitive parts of your business ",
+      "h1_em": "disappear",
+      "h1_end": "",
+      "sub": "Whatever your team does manually, over and over. We automate it. So the people you pay to think can stop doing the work you pay machines for.",
+      "cta1": "Find what's right for you →",
+      "cta2": "See what we do"
+    },
+    "stats": [
+      { "num": "12+ hrs", "desc": "saved per week on average" },
+      { "num": "3 weeks", "desc": "to first automation live" },
+      { "num": "$30K+", "desc": "in annual labor saved per client" },
+      { "num": "zero", "desc": "new software your team needs to learn" }
+    ],
+    "what": {
+      "label": "What we do",
+      "h2_line1": "We take tasks off people's plates.",
+      "h2_em": "Permanently.",
+      "sub": "We don't sell \"AI strategy.\" We build the specific thing that makes a specific task stop requiring a human.",
+      "beforeLabel": "Before",
+      "afterLabel": "After",
+      "examples": [
+        { "before": "Someone manually fills the same client info into 4 different forms", "after": "Client fills it once. It populates everywhere automatically." },
+        { "before": "Leads sit in the inbox for hours before anyone responds", "after": "Every lead gets a personalised reply in under 2 minutes." },
+        { "before": "Monday morning starts with copy-pasting numbers into a spreadsheet", "after": "Your report is waiting in your inbox before you wake up." },
+        { "before": "Someone has to remember to follow up with every prospect manually", "after": "Follow-ups go out at the right time, automatically, for every lead." },
+        { "before": "New client onboarding is different every time depending on who's free", "after": "Every client gets the same smooth experience, triggered automatically." },
+        { "before": "Invoicing takes half a day every week because it's all done by hand", "after": "Job completed → invoice created → invoice sent. Nobody touches it." }
+      ]
+    },
+    "how": {
+      "label": "How it works",
+      "h2_line1": "Simple process.",
+      "h2_em": "Real results in weeks.",
+      "sub": "We've done this enough times to make it fast. You don't need to figure out what to automate. That's our job.",
+      "steps": [
+        { "num": "01", "h3": "Free audit: we find where you're bleeding hours", "p": "One 30-minute call. You walk us through a typical week. We identify the 3 tasks that are costing you the most time and are easiest to automate. No commitment, no jargon." },
+        { "num": "02", "h3": "You approve the plan before we build anything", "p": "We send you a plain-English document: here's the task, here's how we'd automate it, here's how many hours a week that frees up. You sign off before a single line of code is written." },
+        { "num": "03", "h3": "We build it, it runs, you forget it exists", "p": "Within 3 weeks the first automation is live. Your team doesn't need to change how they work. We monitor it and keep it running. The task just stops being a task." }
+      ]
+    },
+    "profiles": {
+      "label": "Who it's for",
+      "h2_line1": "Two kinds of businesses.",
+      "h2_em": "Both wasting hours they shouldn't be.",
+      "sub": "We've built solutions for both. Pick whichever sounds more like you. The page will speak your language.",
+      "smb": {
+        "eyebrow": "For small & medium businesses",
+        "h3_line1": "You run the business.",
+        "h3_em": "Stop running the admin.",
+        "p": "Plumbers, agencies, retailers, practices, studios. If your team is doing the same things manually every week: invoicing, reporting, onboarding, following up. We make those stop.",
+        "tags": ["Invoicing", "Lead follow-up", "Reporting", "Client onboarding", "Scheduling"]
+      },
+      "startups": {
+        "eyebrow": "For early-stage & scaling startups",
+        "h3_line1": "Stop doing marketing",
+        "h3_em": "at midnight.",
+        "p": "Seed to Series A. If you're a founder still writing cold emails yourself, or your one marketer is drowning in tasks a system should handle. We build the engine so you don't have to run it.",
+        "tags": ["Outbound prospecting", "Lead nurturing", "Content engine", "User onboarding", "Attribution"]
+      }
+    },
+    "testimonial": {
+      "quote_before": "We build software to automate finance for other companies. And we were still doing our own internal reporting by hand every week. It took vision about two weeks to fix something we'd been tolerating for two years. ",
+      "quote_strong": "Slightly embarrassing in retrospect.",
+      "name": "Christophe Lassuyt",
+      "role": "CEO & Co-founder, Request Finance (YC W17)"
+    },
+    "cta": {
+      "h2_line1": "Not sure where to start?",
+      "h2_em": "That's what the audit is for.",
+      "p": "Book a free 30-minute call. We'll find the tasks eating your team's time and tell you exactly what's automatable, how long it takes, and what it saves. No pitch, no commitment.",
+      "btn": "See if I qualify →",
+      "note": "2 spots left only"
+    },
+    "faqItems": [
+      { "q": "What kinds of tasks can you actually automate?", "a": "Anything your team does repeatedly in a predictable way: data entry across systems, lead follow-up, report generation, invoice creation, client onboarding sequences, internal notifications, and more. If someone on your team does the same thing more than a few times a week, it's almost certainly automatable." },
+      { "q": "How long before we see results?", "a": "The first automation is typically live within 3 weeks of kick-off. Results are visible from day one of go-live: hours saved, tasks eliminated. We don't do 3-month strategy phases before building anything." },
+      { "q": "Does my team need to learn new software?", "a": "No. We build automations that work inside the tools you already use. Your team's day-to-day doesn't change. Tasks just stop requiring them." },
+      { "q": "What does it cost?", "a": "It depends on scope. We start with a free audit to identify what's worth fixing, then propose a plan with clear pricing before any work begins. No surprises." },
+      { "q": "What if something breaks after you've built it?", "a": "We monitor every automation we build and fix issues as they arise. You're not left holding the bag after handover." }
+    ]
+  },
+  "smb": {
+    "meta": {
+      "title": "Automate your business operations — vision",
+      "description": "Stop losing hours to manual tasks. We find the repetitive work bleeding your business dry and make it disappear."
+    },
+    "hero": {
+      "tag": "For small and mid-size businesses",
+      "h1_line1": "Stop losing hours to tasks",
+      "h1_line2_before": "your team ",
+      "h1_line2_em": "shouldn't be doing",
+      "sub": "We find the repetitive work bleeding your business dry and make it disappear. No jargon, no fluff. Just time and money back.",
+      "cta1": "Show me what I can save →",
+      "cta2": "See real examples"
+    },
+    "stats": [
+      { "num": "12+ hrs", "desc": "saved per week, on average" },
+      { "num": "6 weeks", "desc": "to first result, guaranteed" },
+      { "num": "$30K+", "desc": "in annual labor saved per client" }
+    ],
+    "problems": {
+      "label": "The problem",
+      "h2": "Does any of this sound familiar?",
+      "sub": "These aren't \"business problems.\" They're just hours being quietly stolen from you every single week.",
+      "items": [
+        { "h3": "Copying the same data into multiple places", "p": "Your team fills in the same client info in 3 different systems. Every single time. Manually." },
+        { "h3": "Chasing people for updates", "p": "Half your week is follow-up emails and Slack messages just checking if things got done." },
+        { "h3": "Building the same report every Monday morning", "p": "Someone sits down and copy-pastes numbers into a spreadsheet. Before any real work starts." },
+        { "h3": "Invoicing that eats your evenings", "p": "Creating, sending, and chasing invoices takes hours every single week." },
+        { "h3": "Leads that fall through the cracks", "p": "New enquiries come in and someone has to manually log them, or they just get lost." },
+        { "h3": "\"We always do it this way\"", "p": "If your team has a routine they do the same way every time, it can probably run itself." }
+      ]
+    },
+    "how": {
+      "label": "How it works",
+      "h2_line1": "Three steps,",
+      "h2_em": "then it runs itself",
+      "sub": "We don't ask you to change how you work or learn new software. We just remove the parts that shouldn't require a human in the first place.",
+      "steps": [
+        { "num": "1", "h3": "We audit your biggest time-wasters, free", "p": "One 30-minute call. You walk us through your week. We tell you exactly where you're bleeding hours and what it would take to fix it. No commitment, no jargon." },
+        { "num": "2", "h3": "You approve before we build anything", "p": "We send you a plain-English breakdown: here's the task, here's how it gets automated, here's how many hours a week that frees up. You decide what to move forward with." },
+        { "num": "3", "h3": "We build it, hand it over, and it just works", "p": "Within weeks, that task is just gone. Your team doesn't need to learn anything new. We stay on to make sure it keeps running smoothly." }
+      ]
+    },
+    "wins": {
+      "label": "Quick wins",
+      "h2_before": "Real problems we've ",
+      "h2_em": "already solved",
+      "sub": "Not hypothetical case studies. Actual workflows we removed for businesses like yours.",
+      "items": [
+        { "tag": "Retail / Finance", "h3": "One form, filled everywhere", "p": "Client fills in their details once. A bot automatically fills the same info into 4 different finance applications. No one touches it again.", "saving": "Saves 3 hrs per client application" },
+        { "tag": "Services", "h3": "Invoices that send themselves", "p": "When a job is marked complete, the invoice gets created and sent automatically. The end-of-week invoice pile just disappears.", "saving": "Saves 4 hrs every week" },
+        { "tag": "Any business", "h3": "Reports that write themselves", "p": "Every morning, your key numbers are compiled and waiting in your inbox. No spreadsheet, no copy-pasting, no mental load.", "saving": "Saves 5 hrs every week" },
+        { "tag": "Tradespeople", "h3": "Enquiries logged automatically", "p": "New messages hit your inbox and get instantly added to your job list with all the details extracted. Nothing falls through the cracks.", "saving": "Zero missed leads" },
+        { "tag": "Post-production", "h3": "End-of-day recap, automated", "p": "Room usage, job status, and notes pulled together and emailed to the team every evening. Without anyone doing it manually.", "saving": "Saves 1 hr every day" },
+        { "tag": "Real estate", "h3": "Follow-ups that never slip", "p": "When a client goes quiet, they get a follow-up automatically at the right time. When they respond, it lands in your CRM, tagged and ready.", "saving": "30% more leads converted" }
+      ]
+    },
+    "testimonial": {
+      "quote": "I didn't care what technology they used. I just wanted to stop having my team manually fill out the same form four times per customer. They fixed it in two weeks. I gave my best employee her afternoons back.",
+      "attr": "Sarah M., Owner, independent car dealership, 12 employees"
+    },
+    "industries": {
+      "label": "Who this is for",
+      "h2_before": "Anyone whose team is doing things ",
+      "h2_em": "manually that they shouldn't be",
+      "sub": "We've worked with businesses across every industry. If it's repetitive, it can probably run itself.",
+      "items": ["Real estate agents", "Car dealerships", "Post-production studios", "Retail stores", "Landscapers", "Accountants", "Property managers", "Healthcare practices", "Recruitment firms", "Logistics companies", "Any business with repetitive admin", "Construction & tradespeople"]
+    },
+    "cta": {
+      "h2_line1": "Find out what you're",
+      "h2_em": "losing every week",
+      "p": "Book a free 30-minute audit. We'll tell you exactly which tasks are automatable, how many hours they're costing you, and what it would take to fix them.",
+      "btn": "See if I qualify →",
+      "note": "2 spots left only"
+    },
+    "faqItems": [
+      { "q": "Do I need to be technical to work with you?", "a": "Not at all. You describe the problem in plain English: 'every Monday I manually copy last week's numbers into a spreadsheet'. We handle everything from there. You never need to touch a line of code." },
+      { "q": "What tools do you integrate with?", "a": "Most of the common ones: Google Workspace, Microsoft 365, Xero, QuickBooks, HubSpot, Salesforce, Airtable, Notion, Slack, and many more. If you're using something more niche, just ask. We'll tell you if it's possible." },
+      { "q": "How do I know which tasks are actually worth automating?", "a": "That's exactly what the free audit is for. We'll look at your week, identify where the hours are going, and tell you which tasks have the highest return on automation. You don't need to figure that out yourself." },
+      { "q": "How small is 'small business'? Do you have a minimum size?", "a": "We've worked with businesses of 3 people and businesses of 80. What matters isn't headcount. It's whether repetitive manual work is costing you meaningful time or money. If it is, we can help." },
+      { "q": "What's included in the free audit?", "a": "A 30-minute call where you walk us through a typical week. We'll identify your top 3 time-wasting tasks, explain what it would take to automate each, and give you an honest read on what the impact would be. No commitment required." }
+    ]
+  },
+  "startups": {
+    "meta": {
+      "title": "Marketing automation for startups — vision",
+      "description": "We build automated marketing systems that generate leads, nurture them, and convert them while your team stays focused on building the product."
+    },
+    "hero": {
+      "tag": "For early-stage & scaling startups",
+      "h1_line1": "Your marketing engine running",
+      "h1_line2_before": "24/7 ",
+      "h1_line2_em": "without the headcount",
+      "sub": "We build automated marketing systems that generate leads, nurture them, and convert them while your team stays focused on building the product.",
+      "cta1": "See if I qualify →",
+      "cta2": "See what's possible"
+    },
+    "stats": [
+      { "num": "3.8×", "desc": "average pipeline increase in 90 days" },
+      { "num": "62%", "desc": "reduction in cost per qualified lead" },
+      { "num": "49 hrs", "desc": "of marketing automated per week" },
+      { "num": "21 days", "desc": "from kickoff to first system live" }
+    ],
+    "pain": {
+      "label": "The problem",
+      "h2_before": "Does any of this ",
+      "h2_em": "sound familiar?",
+      "sub": "Not \"challenges\" or \"friction points.\" Just the actual thoughts running through your head at the end of a long day.",
+      "items": [
+        { "num": "01", "h3": "\"We basically live off referrals and I have no idea what happens when they dry up\"", "p": "Word of mouth is great until it isn't. And you have no system to replace it." },
+        { "num": "02", "h3": "\"I keep saying I'll sort the marketing next week. It's been three months.\"", "p": "It's always the thing that gets pushed. There's always something more urgent. And the pipeline stays empty." },
+        { "num": "03", "h3": "\"Someone filled in our contact form four days ago and I just saw it now\"", "p": "By the time anyone followed up, they'd already booked a call with someone else. That keeps happening." },
+        { "num": "04", "h3": "\"I know I should be posting on LinkedIn but I genuinely don't have time to sit and write\"", "p": "You open a blank post, stare at it for ten minutes, and close the tab. Every week." },
+        { "num": "05", "h3": "\"There are like 80 leads in our CRM that nobody has touched since January\"", "p": "They showed up, got one email, and then nothing. Some of them were probably ready to buy by now." },
+        { "num": "06", "h3": "\"Honestly I don't know which of our channels is actually bringing in customers\"", "p": "You spend money on ads, post content, send emails, and have no idea what's working or what to double down on." },
+        { "num": "07", "h3": "\"Every new user gets a slightly different onboarding depending on who's free that day\"", "p": "It works, sort of, but it's held together with manual effort. Scale that by 10x and it falls apart." },
+        { "num": "08", "h3": "\"I'm the founder and I'm still writing cold emails myself at 11pm\"", "p": "You know this isn't scalable. You just haven't had time to fix it yet. That's exactly why you're here." },
+        { "num": "09", "h3": "\"We hired a marketer but they spend all their time on stuff a system should be doing\"", "p": "Scheduling posts, pulling reports, sending follow-ups. You didn't hire them for that." }
+      ]
+    },
+    "how": {
+      "label": "How it works",
+      "h2_line1": "We build the system.",
+      "h2_dim": "You run the company.",
+      "sub": "Three phases. Done in less than 30 days. Running indefinitely after that.",
+      "steps": [
+        { "num": "01", "h3": "Diagnose & map your growth engine", "p": "We audit your current funnel, identify where leads are leaking, and map out exactly which automations will move the needle fastest for your stage." },
+        { "num": "02", "h3": "Build the systems, not just the campaigns", "p": "We build automated pipelines, lead capture, enrichment, nurturing, scoring, handoff to sales, that run 24/7 without anyone managing them." },
+        { "num": "03", "h3": "Optimise on real data, every month", "p": "We monitor, test, and iterate. You get a monthly report showing exactly what's working, what changed, and what's next." }
+      ]
+    },
+    "services": {
+      "label": "What we build",
+      "h2_line1": "Marketing systems that",
+      "h2_dim": "don't need babysitting",
+      "sub": "Each system targets a specific growth bottleneck. We deploy the ones that matter most for your stage.",
+      "items": [
+        { "h3": "Instant lead response & qualification", "p": "The moment a lead fills a form or books a demo, they get a personalised response, get scored, and land in the right sequence, in under 2 minutes.", "tag": "Pipeline velocity" },
+        { "h3": "Outbound prospecting on autopilot", "p": "ICP-targeted prospect lists built and enriched automatically. Personalised multi-touch sequences that feel human but run themselves.", "tag": "Outbound" },
+        { "h3": "Long-term nurture sequences", "p": "Leads who aren't ready today get nurtured for 90 days with content relevant to their stage and pain point. They come back warmer.", "tag": "Retention" },
+        { "h3": "Content & LinkedIn engine", "p": "A weekly content pipeline generated from your POV, your voice, your insights, reviewed and published without you writing from scratch.", "tag": "Inbound" },
+        { "h3": "User onboarding automation", "p": "Every new signup gets the same great onboarding experience, triggered sequences, check-in emails, and activation nudges based on what they've done.", "tag": "Activation" },
+        { "h3": "Full-funnel attribution dashboard", "p": "One dashboard showing where your leads come from, how they progress, and what converts. No more guessing which channels are worth it.", "tag": "Visibility" }
+      ]
+    },
+    "results": {
+      "label": "Real results",
+      "h2_before": "Specific problems we've ",
+      "h2_em": "already fixed",
+      "sub": "Not vague \"growth outcomes.\" Actual annoying things that were eating founders' time. Not anymore.",
+      "items": [
+        { "tag": "B2B SaaS, Seed stage", "metric": "0→40", "label": "demos booked per month, founder stopped writing cold emails himself", "desc": "He was spending 2 hours a night prospecting manually. We built a system that finds the right people, personalises outreach, and books calls without him touching it." },
+        { "tag": "Dev tools, Series A", "metric": "4.2×", "label": "trial-to-paid conversion, signups stopped going quiet after day 3", "desc": "Users would sign up, poke around, and disappear. We built triggered emails based on what they did and didn't do in the product. Most never needed a sales call after that." },
+        { "tag": "Marketplace, Pre-seed", "metric": "-71%", "label": "cost per qualified lead, sales team stopped wasting calls on bad leads", "desc": "They were spending half their day on calls that went nowhere. We built automatic scoring so they only talk to people who've already shown they're serious." },
+        { "tag": "HR Tech, Series A", "metric": "11 hrs", "label": "freed per week, their one marketer finally got to do actual marketing", "desc": "She was spending her whole week scheduling posts, pulling reports, and sending follow-ups by hand. We automated all of it. She now works on strategy instead." },
+        { "tag": "Fintech, Seed", "metric": "2 min", "label": "lead response time, inbound leads stopped going cold before anyone replied", "desc": "Someone would fill in the contact form and hear nothing for hours. We built instant enrichment and a personalised response that goes out in under 2 minutes. Demo bookings up 38%." },
+        { "tag": "B2B SaaS, Pre-seed", "metric": "$0", "label": "ad spend, 200 waitlist signups in 6 weeks, entirely organic", "desc": "No budget, no agency, no growth hacker. Just a LinkedIn content engine built around the founder's actual opinions, and a simple referral loop. Six weeks." }
+      ]
+    },
+    "testimonials": {
+      "label": "From founders",
+      "h2": "In their words",
+      "sub": "Founders who were doing marketing manually, or not at all, before we stepped in.",
+      "items": [
+        { "quote_before": "I was writing cold emails at 11pm because nobody else was doing it and I didn't know how to fix that. Three weeks after we started working together, I hadn't thought about outreach once. ", "quote_strong": "The meetings were just showing up.", "name": "Simran Agarwal", "role": "Head of Ecosystem, Web3 Finance Club & Request Finance" },
+        { "quote_before": "Our marketer is really good. But she was spending her whole week doing things a spreadsheet and a few automations could do. I felt guilty about it. ", "quote_strong": "Now she actually does what I hired her for.", "name": "Christophe Lassuyt", "role": "CEO & Co-founder, Request Finance (YC W17)" }
+      ]
+    },
+    "forWho": {
+      "label": "Is this for you?",
+      "h2_line1": "Right fit.",
+      "h2_dim": "Wrong fit.",
+      "sub": "We'd rather be honest upfront than waste your time or ours.",
+      "rightCard": {
+        "h3_before": "This is for you ",
+        "h3_em": "if:",
+        "items": [
+          "You're a founder still doing marketing tasks yourself and you're tired of it",
+          "You have customers but no real system for finding more of them",
+          "Leads are coming in but falling through the cracks because nobody follows up fast enough",
+          "You've got one marketer and they're stuck doing things a robot should be doing",
+          "You want something built properly, not a patchwork of Zapier automations",
+          "You want to see results in weeks, not after a 6-month \"strategy phase\""
+        ]
+      },
+      "wrongCard": {
+        "h3_before": "This is ",
+        "h3_dim": "not",
+        "h3_after": " for you if:",
+        "items": [
+          "You're still figuring out what you're building and who it's for",
+          "You want someone to run your marketing completely hands-off with no input from you",
+          "You need a rebrand or visual identity work, that's not what we do",
+          "You're looking for the cheapest possible option"
+        ]
+      }
+    },
+    "cta": {
+      "h2_line1": "Still writing your own",
+      "h2_em": "cold emails at midnight?",
+      "p": "Book a free 30-minute call. We'll look at what's eating your time, where leads are slipping through, and tell you exactly what we'd fix first and what that would change.",
+      "btn": "See if I qualify →",
+      "note": "2 spots left only"
+    },
+    "faqItems": [
+      { "q": "We're pre-product/market fit. Is this too early for us?", "a": "Probably, yes. We work best with startups that already have customers and a repeatable process, even a manual one. If you're still figuring out who you're building for, come back once you have some traction. We'll be more useful then." },
+      { "q": "How is this different from hiring a growth marketer?", "a": "A marketer makes decisions. We build the infrastructure so those decisions run themselves. Ideally you eventually have both, but we make sure your marketer spends their time on strategy, not on tasks a system could handle." },
+      { "q": "Do you work with our existing CRM and tools?", "a": "Yes. We audit what you already have and build around it. We don't ask you to rip and replace your stack. We connect the pieces that aren't talking to each other and automate the work happening in the gaps." },
+      { "q": "How quickly will we see pipeline results?", "a": "The first system is live within 3 weeks. Pipeline impact depends on your market and current baseline, but most clients see measurable changes in lead volume or response time within the first month." },
+      { "q": "What happens when the engagement ends?", "a": "The systems keep running. We document everything, hand over full ownership, and can stay on for maintenance if you want. You're never dependent on us to keep the lights on." },
+      { "q": "Do you work with pre-seed companies with no marketing budget?", "a": "Sometimes. If there's a clear operational problem we can solve quickly (outbound prospecting, inbound response, onboarding) we can make a meaningful difference even on a lean budget. The audit will tell you if it makes sense at your stage." }
+    ]
+  },
+  "qualify": {
+    "meta": {
+      "title": "See if you qualify — vision",
+      "description": "Tell us a bit about your business and we'll let you know if we're a good fit."
+    },
+    "intro": {
+      "label": "Quick application",
+      "h1": "See if you qualify",
+      "sub": "Fill in a few details about your business. We review every submission personally and will only reach out if we think we can genuinely help. No pitch, no spam."
+    },
+    "form": {
+      "nameLabel": "Full name",
+      "namePlaceholder": "Jane Smith",
+      "emailLabel": "Work email",
+      "emailPlaceholder": "jane@company.com",
+      "companyLabel": "Company / business name",
+      "companyPlaceholder": "Acme Inc.",
+      "businessTypeLabel": "Type of business",
+      "businessTypeDefault": "Select one",
+      "businessTypeOptions": ["Small or medium business", "Early-stage startup", "Scaling startup (Series A+)", "Other"],
+      "teamSizeLabel": "Team size",
+      "teamSizeDefault": "Select one",
+      "teamSizeOptions": ["Just me", "2–5 people", "6–20 people", "21–50 people", "50+ people"],
+      "hoursLostLabel": "Hours lost to manual tasks per week",
+      "hoursLostDefault": "Select one",
+      "hoursLostOptions": ["2–5 hours", "5–10 hours", "10–20 hours", "20+ hours"],
+      "challengeLabel": "What's the biggest thing eating your team's time right now?",
+      "challengePlaceholder": "e.g. We manually copy client info into 3 different systems every time we get a new customer...",
+      "submitBtn": "See if I qualify →",
+      "submittingBtn": "Sending…",
+      "submitNote": "No commitment. We'll review and get back to you within 1 business day.",
+      "successTitle": "You're on the list.",
+      "successText": "We've received your details and will review them shortly. If you're a good fit, we'll be in touch within 1 business day.",
+      "successBackBtn": "Back to home"
+    },
+    "faqItems": [
+      { "q": "What happens after I submit this form?", "a": "We review your submission personally, usually within 1 business day. If we think we can genuinely help, we'll reach out to schedule a 30-minute call. If we don't think it's the right fit, we'll tell you that too." },
+      { "q": "Is the audit really free? What's the catch?", "a": "It's free. No catch. We do it because it's the fastest way to figure out if working together makes sense, for both sides. If it's not a fit, you still walk away knowing exactly where you're losing time." },
+      { "q": "How long is the audit call?", "a": "30 minutes. You walk us through a typical week, we ask a few questions, and by the end you'll have a clear picture of what's automatable and what the impact would be." },
+      { "q": "Will I be pressured to sign anything?", "a": "No. The audit is a conversation. We'll share what we found and what we'd recommend. If you want to move forward, great. If not, no hard feelings and no follow-up emails chasing you." },
+      { "q": "What if I'm not sure which type of business I am (SMB vs startup)?", "a": "Don't worry about it. Just describe your situation in the form. We'll figure out the right approach based on what you tell us." }
+    ]
+  }
+}

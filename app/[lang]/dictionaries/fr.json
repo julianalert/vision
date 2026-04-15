@@ -1,0 +1,403 @@
+{
+  "nav": {
+    "forBusinesses": "Pour les entreprises",
+    "forStartups": "Pour les startups",
+    "qualify": "Voir si je suis éligible"
+  },
+  "footer": {
+    "forBusinesses": "Pour les entreprises",
+    "forStartups": "Pour les startups",
+    "qualify": "Voir si je suis éligible",
+    "copyright": "© 2026 vision. Tous droits réservés."
+  },
+  "trustedBy": {
+    "label": "Recommandés par des équipes de"
+  },
+  "faqSection": {
+    "label": "FAQ",
+    "title": "Questions fréquentes"
+  },
+  "taskWidget": {
+    "label": "Tâches en cours",
+    "tasks": [
+      { "text": "Facture envoyée à Harwick & Co", "done": true },
+      { "text": "Lead du formulaire qualifié & assigné", "done": true },
+      { "text": "Rapport de performance hebdomadaire compilé", "done": true },
+      { "text": "Relance envoyée à 3 leads froids (jour 7)", "done": true },
+      { "text": "Séquence d'onboarding — nouvel inscrit", "done": false, "tag": "En cours" },
+      { "text": "Email récap lundi — prévu à 18h", "done": false, "tag": "En cours" }
+    ],
+    "autoTag": "Auto",
+    "footerNum": "14 h",
+    "footerText": " économisées cette semaine",
+    "footerBadge": "Tous les systèmes actifs"
+  },
+  "teamSection": {
+    "label": "L'équipe",
+    "h2_before": "Construit par des gens qui l'ont ",
+    "h2_em": "déjà fait",
+    "sub": "Trois co-fondateurs avec des backgrounds en produit, marketing et stratégie. Nous avons créé vision parce que nous voyions les mêmes heures gaspillées dans chaque entreprise avec laquelle nous travaillions.",
+    "linkedin": "LinkedIn →",
+    "members": [
+      {
+        "name": "Clément Bernard",
+        "role": "Co-fondateur, Marketing & Croissance",
+        "bio": "12 ans en stratégie de contenu et marketing de recherche. A construit et fait croître des audiences numériques dans le sport, la finance et la tech. Sait exactement quelles tâches marketing ne devraient jamais nécessiter un humain."
+      },
+      {
+        "name": "Clément Samson",
+        "role": "Co-fondateur, Stratégie & Développement",
+        "bio": "Leader en développement commercial international avec 11 ans dans le conseil et des ventures à forte croissance. Anciennement chez Arthur D. Little et Tasama (PIF). Identifie les lacunes opérationnelles qui méritent d'être corrigées."
+      },
+      {
+        "name": "Julien Devoir",
+        "role": "Co-fondateur, Produit & Systèmes",
+        "bio": "14 ans à construire des produits numériques et des systèmes de croissance. Anciennement Head of Product chez Request Network et responsable croissance chez Molotov TV. Conçoit les automatisations pour qu'elles fonctionnent dans le monde réel."
+      }
+    ]
+  },
+  "home": {
+    "meta": {
+      "title": "Votre moteur marketing actif 24h/24, 7j/7, sans l'équipe — vision.",
+      "description": "Nous construisons des systèmes marketing automatisés qui génèrent des leads, les nurturent et les convertissent pendant que votre équipe se concentre sur l'essentiel."
+    },
+    "hero": {
+      "tag": "Agence d'automatisation IA",
+      "h1_start": "Nous faisons ",
+      "h1_em": "disparaître",
+      "h1_end": " les tâches répétitives de votre activité",
+      "sub": "Tout ce que votre équipe fait manuellement, encore et encore. Nous l'automatisons. Afin que ceux que vous payez pour réfléchir arrêtent de faire le travail des machines.",
+      "cta1": "Trouvez ce qui vous convient →",
+      "cta2": "Voir ce que nous faisons"
+    },
+    "stats": [
+      { "num": "12+ h", "desc": "économisées par semaine en moyenne" },
+      { "num": "3 semaines", "desc": "jusqu'à la première automatisation" },
+      { "num": "30 000 $+", "desc": "de main-d'œuvre économisée par client" },
+      { "num": "zéro", "desc": "nouveau logiciel à apprendre pour votre équipe" }
+    ],
+    "what": {
+      "label": "Ce que nous faisons",
+      "h2_line1": "Nous retirons les tâches de l'assiette de vos équipes.",
+      "h2_em": "Définitivement.",
+      "sub": "Nous ne vendons pas de « stratégie IA ». Nous construisons la solution concrète qui fait qu'une tâche spécifique n'a plus besoin d'un humain.",
+      "beforeLabel": "Avant",
+      "afterLabel": "Après",
+      "examples": [
+        { "before": "Quelqu'un remplit manuellement les mêmes infos client dans 4 formulaires différents", "after": "Le client le remplit une fois. Ça se propage partout automatiquement." },
+        { "before": "Les leads restent en boîte mail des heures avant que quelqu'un réponde", "after": "Chaque lead reçoit une réponse personnalisée en moins de 2 minutes." },
+        { "before": "Le lundi matin commence par copier-coller des chiffres dans un tableur", "after": "Votre rapport vous attend dans votre boîte mail avant votre réveil." },
+        { "before": "Quelqu'un doit se souvenir de relancer chaque prospect manuellement", "after": "Les relances partent au bon moment, automatiquement, pour chaque lead." },
+        { "before": "L'onboarding d'un nouveau client est différent à chaque fois selon qui est disponible", "after": "Chaque client bénéficie de la même expérience fluide, déclenchée automatiquement." },
+        { "before": "La facturation prend une demi-journée chaque semaine car tout est fait manuellement", "after": "Travail terminé → facture créée → facture envoyée. Personne n'y touche." }
+      ]
+    },
+    "how": {
+      "label": "Comment ça marche",
+      "h2_line1": "Un processus simple.",
+      "h2_em": "Des résultats concrets en quelques semaines.",
+      "sub": "Nous l'avons fait suffisamment de fois pour le rendre rapide. Vous n'avez pas à déterminer ce qu'il faut automatiser. C'est notre travail.",
+      "steps": [
+        { "num": "01", "h3": "Audit gratuit : on trouve où vous perdez des heures", "p": "Un appel de 30 minutes. Vous nous décrivez votre semaine type. Nous identifions les 3 tâches qui vous coûtent le plus de temps et qui sont les plus faciles à automatiser. Sans engagement, sans jargon." },
+        { "num": "02", "h3": "Vous validez le plan avant que nous construisions quoi que ce soit", "p": "Nous vous envoyons un document en langage clair : voici la tâche, voici comment nous l'automatiserions, voici combien d'heures cela libère par semaine. Vous signez avant qu'une seule ligne de code soit écrite." },
+        { "num": "03", "h3": "Nous le construisons, ça tourne, vous oubliez que ça existe", "p": "En 3 semaines, la première automatisation est en ligne. Votre équipe n'a pas besoin de changer sa façon de travailler. Nous la surveillons et la maintenons. La tâche cesse simplement d'être une tâche." }
+      ]
+    },
+    "profiles": {
+      "label": "Pour qui",
+      "h2_line1": "Deux types d'entreprises.",
+      "h2_em": "Les deux perdent des heures qu'elles ne devraient pas.",
+      "sub": "Nous avons développé des solutions pour les deux. Choisissez celui qui vous ressemble le plus. La page vous parlera dans votre langage.",
+      "smb": {
+        "eyebrow": "Pour les petites et moyennes entreprises",
+        "h3_line1": "Vous gérez l'entreprise.",
+        "h3_em": "Arrêtez de gérer l'administratif.",
+        "p": "Plombiers, agences, commerces, cabinets, studios. Si votre équipe fait les mêmes choses manuellement chaque semaine : facturation, reporting, onboarding, relances. Nous les faisons disparaître.",
+        "tags": ["Facturation", "Relances prospects", "Reporting", "Onboarding clients", "Planning"]
+      },
+      "startups": {
+        "eyebrow": "Pour les startups early-stage et en croissance",
+        "h3_line1": "Arrêtez de faire du marketing",
+        "h3_em": "à minuit.",
+        "p": "Seed à Série A. Si vous êtes un fondateur qui écrit encore des emails froids vous-même, ou votre seul marketeur est noyé sous des tâches qu'un système devrait gérer. Nous construisons le moteur pour que vous n'ayez plus à le faire tourner.",
+        "tags": ["Prospection sortante", "Lead nurturing", "Moteur de contenu", "Onboarding utilisateurs", "Attribution"]
+      }
+    },
+    "testimonial": {
+      "quote_before": "Nous construisons des logiciels pour automatiser la finance d'autres entreprises. Et nous faisions encore notre reporting interne à la main chaque semaine. Il a fallu deux semaines à vision pour résoudre quelque chose que nous avions toléré pendant deux ans. ",
+      "quote_strong": "Légèrement embarrassant avec le recul.",
+      "name": "Christophe Lassuyt",
+      "role": "PDG & co-fondateur, Request Finance (YC W17)"
+    },
+    "cta": {
+      "h2_line1": "Pas sûr par où commencer ?",
+      "h2_em": "C'est à ça que sert l'audit.",
+      "p": "Réservez un appel gratuit de 30 minutes. Nous trouverons les tâches qui mangent le temps de votre équipe et vous dirons exactement ce qui est automatisable, combien de temps cela prend et ce que cela économise. Sans pitch, sans engagement.",
+      "btn": "Voir si je suis éligible →",
+      "note": "Plus que 2 places disponibles"
+    },
+    "faqItems": [
+      { "q": "Quels types de tâches pouvez-vous réellement automatiser ?", "a": "Tout ce que votre équipe fait de façon répétitive et prévisible : saisie de données dans plusieurs systèmes, relances de leads, génération de rapports, création de factures, séquences d'onboarding clients, notifications internes, etc. Si quelqu'un dans votre équipe fait la même chose plusieurs fois par semaine, c'est presque certainement automatisable." },
+      { "q": "Combien de temps avant de voir des résultats ?", "a": "La première automatisation est généralement en ligne dans les 3 semaines suivant le démarrage. Les résultats sont visibles dès le premier jour de mise en production : heures économisées, tâches éliminées. Nous ne faisons pas de phases de stratégie de 3 mois avant de construire quoi que ce soit." },
+      { "q": "Mon équipe doit-elle apprendre de nouveaux logiciels ?", "a": "Non. Nous construisons des automatisations qui fonctionnent dans les outils que vous utilisez déjà. Le quotidien de votre équipe ne change pas. Les tâches cessent simplement de les solliciter." },
+      { "q": "Quel est le coût ?", "a": "Cela dépend de la portée. Nous commençons par un audit gratuit pour identifier ce qui vaut la peine d'être corrigé, puis nous proposons un plan avec des tarifs clairs avant que tout travail commence. Pas de surprises." },
+      { "q": "Que se passe-t-il si quelque chose se casse après que vous l'ayez construit ?", "a": "Nous surveillons chaque automatisation que nous construisons et résolvons les problèmes au fur et à mesure. Vous n'êtes pas laissé seul après la livraison." }
+    ]
+  },
+  "smb": {
+    "meta": {
+      "title": "Automatisez vos opérations — vision",
+      "description": "Arrêtez de perdre des heures sur des tâches manuelles. Nous trouvons le travail répétitif qui saigne votre entreprise à blanc et le faisons disparaître."
+    },
+    "hero": {
+      "tag": "Pour les petites et moyennes entreprises",
+      "h1_line1": "Arrêtez de perdre des heures sur des tâches",
+      "h1_line2_before": "que votre équipe ",
+      "h1_line2_em": "ne devrait pas faire",
+      "sub": "Nous trouvons le travail répétitif qui saigne votre entreprise à blanc et le faisons disparaître. Sans jargon, sans blabla. Juste du temps et de l'argent récupérés.",
+      "cta1": "Montrez-moi ce que je peux économiser →",
+      "cta2": "Voir des exemples concrets"
+    },
+    "stats": [
+      { "num": "12+ h", "desc": "économisées par semaine, en moyenne" },
+      { "num": "6 semaines", "desc": "jusqu'au premier résultat, garanti" },
+      { "num": "30 000 $+", "desc": "de main-d'œuvre économisée par client" }
+    ],
+    "problems": {
+      "label": "Le problème",
+      "h2": "Est-ce que ça vous parle ?",
+      "sub": "Ce ne sont pas des « problèmes d'entreprise ». Ce sont juste des heures qui vous sont discrètement volées chaque semaine.",
+      "items": [
+        { "h3": "Copier les mêmes données dans plusieurs endroits", "p": "Votre équipe saisit les mêmes infos client dans 3 systèmes différents. À chaque fois. Manuellement." },
+        { "h3": "Relancer les gens pour avoir des mises à jour", "p": "La moitié de votre semaine, c'est des emails de relance et des messages Slack juste pour vérifier si les choses ont été faites." },
+        { "h3": "Construire le même rapport chaque lundi matin", "p": "Quelqu'un s'assoit et copie-colle des chiffres dans un tableur. Avant que le vrai travail commence." },
+        { "h3": "Une facturation qui dévore vos soirées", "p": "Créer, envoyer et relancer les factures prend des heures chaque semaine." },
+        { "h3": "Des leads qui passent entre les mailles", "p": "Des nouvelles demandes arrivent et quelqu'un doit les saisir manuellement, ou elles se perdent tout simplement." },
+        { "h3": "« On a toujours fait comme ça »", "p": "Si votre équipe a une routine qu'elle exécute de la même façon à chaque fois, elle peut probablement tourner toute seule." }
+      ]
+    },
+    "how": {
+      "label": "Comment ça marche",
+      "h2_line1": "Trois étapes,",
+      "h2_em": "puis ça tourne tout seul",
+      "sub": "Nous ne vous demandons pas de changer votre façon de travailler ni d'apprendre de nouveaux logiciels. Nous supprimons simplement les parties qui ne devraient pas nécessiter un humain.",
+      "steps": [
+        { "num": "1", "h3": "Nous auditons vos plus grands gouffres de temps, gratuitement", "p": "Un appel de 30 minutes. Vous nous décrivez votre semaine. Nous vous disons exactement où vous perdez des heures et ce qu'il faudrait pour y remédier. Sans engagement, sans jargon." },
+        { "num": "2", "h3": "Vous validez avant que nous construisions quoi que ce soit", "p": "Nous vous envoyons un récapitulatif en langage clair : voici la tâche, voici comment elle sera automatisée, voici combien d'heures cela libère par semaine. Vous décidez de la suite." },
+        { "num": "3", "h3": "Nous le construisons, vous le récupérez, et ça marche", "p": "En quelques semaines, cette tâche a simplement disparu. Votre équipe n'a rien de nouveau à apprendre. Nous restons disponibles pour assurer le bon fonctionnement." }
+      ]
+    },
+    "wins": {
+      "label": "Victoires rapides",
+      "h2_before": "Des problèmes concrets que nous avons ",
+      "h2_em": "déjà résolus",
+      "sub": "Pas des études de cas hypothétiques. Des processus réels que nous avons supprimés pour des entreprises comme la vôtre.",
+      "items": [
+        { "tag": "Commerce / Finance", "h3": "Un formulaire, rempli partout", "p": "Le client saisit ses informations une fois. Un bot les remplit automatiquement dans 4 applications financières différentes. Personne n'y touche plus.", "saving": "Économise 3 h par dossier client" },
+        { "tag": "Services", "h3": "Des factures qui s'envoient toutes seules", "p": "Quand un travail est marqué comme terminé, la facture est créée et envoyée automatiquement. La pile de factures de fin de semaine disparaît.", "saving": "Économise 4 h chaque semaine" },
+        { "tag": "Toute entreprise", "h3": "Des rapports qui se rédigent seuls", "p": "Chaque matin, vos chiffres clés sont compilés et vous attendent dans votre boîte mail. Pas de tableur, pas de copier-coller, pas de charge mentale.", "saving": "Économise 5 h chaque semaine" },
+        { "tag": "Artisans", "h3": "Demandes enregistrées automatiquement", "p": "Les nouveaux messages arrivent dans votre boîte mail et sont instantanément ajoutés à votre liste de missions avec tous les détails extraits. Rien ne passe entre les mailles.", "saving": "Zéro lead manqué" },
+        { "tag": "Post-production", "h3": "Récapitulatif de fin de journée automatisé", "p": "Utilisation des salles, statut des travaux et notes rassemblés et envoyés à l'équipe chaque soir. Sans que personne le fasse manuellement.", "saving": "Économise 1 h chaque jour" },
+        { "tag": "Immobilier", "h3": "Des relances qui ne glissent jamais", "p": "Quand un client se fait silencieux, il reçoit une relance automatiquement au bon moment. Quand il répond, ça atterrit dans votre CRM, tagué et prêt.", "saving": "30 % de leads convertis en plus" }
+      ]
+    },
+    "testimonial": {
+      "quote": "Je me fichais de la technologie utilisée. Je voulais juste que mon équipe arrête de remplir manuellement le même formulaire quatre fois par client. Ils ont réglé ça en deux semaines. J'ai rendu ses après-midis à ma meilleure employée.",
+      "attr": "Sarah M., gérante, concession automobile indépendante, 12 employés"
+    },
+    "industries": {
+      "label": "Pour qui",
+      "h2_before": "Toute entreprise dont l'équipe fait des choses ",
+      "h2_em": "manuellement qu'elle ne devrait pas",
+      "sub": "Nous avons travaillé avec des entreprises dans tous les secteurs. Si c'est répétitif, ça peut probablement tourner tout seul.",
+      "items": ["Agents immobiliers", "Concessionnaires automobiles", "Studios de post-production", "Commerces de détail", "Paysagistes", "Comptables", "Gestionnaires de biens", "Cabinets médicaux", "Cabinets de recrutement", "Entreprises de logistique", "Toute entreprise avec de l'admin répétitif", "BTP & artisans"]
+    },
+    "cta": {
+      "h2_line1": "Découvrez ce que vous",
+      "h2_em": "perdez chaque semaine",
+      "p": "Réservez un audit gratuit de 30 minutes. Nous vous dirons exactement quelles tâches sont automatisables, combien d'heures elles vous coûtent, et ce qu'il faudrait pour les résoudre.",
+      "btn": "Voir si je suis éligible →",
+      "note": "Plus que 2 places disponibles"
+    },
+    "faqItems": [
+      { "q": "Dois-je être technique pour travailler avec vous ?", "a": "Pas du tout. Vous décrivez le problème en langage courant : « chaque lundi je copie manuellement les chiffres de la semaine dernière dans un tableur ». Nous gérons tout le reste. Vous n'avez jamais besoin de toucher une ligne de code." },
+      { "q": "Avec quels outils travaillez-vous ?", "a": "La plupart des outils courants : Google Workspace, Microsoft 365, Xero, QuickBooks, HubSpot, Salesforce, Airtable, Notion, Slack, et bien d'autres. Si vous utilisez quelque chose de plus spécifique, demandez-nous. Nous vous dirons si c'est possible." },
+      { "q": "Comment savoir quelles tâches valent vraiment la peine d'être automatisées ?", "a": "C'est exactement à ça que sert l'audit gratuit. Nous analyserons votre semaine, identifierons où partent les heures, et vous dirons quelles tâches ont le meilleur retour sur l'automatisation. Vous n'avez pas à trouver ça tout seul." },
+      { "q": "Quelle taille fait une « petite entreprise » ? Avez-vous une taille minimum ?", "a": "Nous avons travaillé avec des entreprises de 3 personnes et des entreprises de 80. Ce qui compte, ce n'est pas l'effectif. C'est si le travail manuel répétitif vous coûte du temps ou de l'argent de façon significative. Si c'est le cas, nous pouvons vous aider." },
+      { "q": "Qu'est-ce qui est inclus dans l'audit gratuit ?", "a": "Un appel de 30 minutes où vous nous décrivez votre semaine type. Nous identifierons vos 3 principales tâches chronophages, expliquerons ce qu'il faudrait pour automatiser chacune, et vous donnerons une évaluation honnête de l'impact. Sans engagement." }
+    ]
+  },
+  "startups": {
+    "meta": {
+      "title": "Automatisation marketing pour startups — vision",
+      "description": "Nous construisons des systèmes marketing automatisés qui génèrent des leads, les nurturent et les convertissent pendant que votre équipe se concentre sur le produit."
+    },
+    "hero": {
+      "tag": "Pour les startups early-stage et en croissance",
+      "h1_line1": "Votre moteur marketing actif",
+      "h1_line2_before": "24/7 ",
+      "h1_line2_em": "sans l'équipe qu'il faut",
+      "sub": "Nous construisons des systèmes marketing automatisés qui génèrent des leads, les nurturent et les convertissent pendant que votre équipe se concentre sur la construction du produit.",
+      "cta1": "Voir si je suis éligible →",
+      "cta2": "Voir ce qui est possible"
+    },
+    "stats": [
+      { "num": "3,8×", "desc": "d'augmentation du pipeline en 90 jours en moyenne" },
+      { "num": "62 %", "desc": "de réduction du coût par lead qualifié" },
+      { "num": "49 h", "desc": "de marketing automatisé par semaine" },
+      { "num": "21 jours", "desc": "du démarrage au premier système en ligne" }
+    ],
+    "pain": {
+      "label": "Le problème",
+      "h2_before": "Est-ce que ça ",
+      "h2_em": "vous parle ?",
+      "sub": "Pas des « défis » ou des « points de friction ». Juste les vraies pensées qui traversent votre tête en fin de longue journée.",
+      "items": [
+        { "num": "01", "h3": "« On vit essentiellement de bouche à oreille et je n'ai aucune idée de ce qui se passe si ça tarit »", "p": "Le bouche à oreille, c'est bien jusqu'au jour où ça s'arrête. Et vous n'avez aucun système pour le remplacer." },
+        { "num": "02", "h3": "« Je me dis toujours que je vais m'occuper du marketing la semaine prochaine. Ça fait trois mois. »", "p": "C'est toujours ce qui est repoussé. Il y a toujours quelque chose de plus urgent. Et le pipeline reste vide." },
+        { "num": "03", "h3": "« Quelqu'un a rempli notre formulaire de contact il y a quatre jours et je viens de le voir »", "p": "Au moment où quelqu'un a relancé, ils avaient déjà booké un appel ailleurs. Ça arrive encore et encore." },
+        { "num": "04", "h3": "« Je sais que je devrais poster sur LinkedIn mais je n'ai vraiment pas le temps d'écrire »", "p": "Vous ouvrez un post vide, le regardez dix minutes, et vous fermez l'onglet. Chaque semaine." },
+        { "num": "05", "h3": "« Il y a genre 80 leads dans notre CRM que personne n'a touchés depuis janvier »", "p": "Ils sont arrivés, ont reçu un email, puis plus rien. Certains étaient probablement prêts à acheter maintenant." },
+        { "num": "06", "h3": "« Honnêtement, je ne sais pas quel canal nous ramène vraiment des clients »", "p": "Vous dépensez en pubs, publiez du contenu, envoyez des emails, et vous ne savez pas ce qui fonctionne ni quoi doubler." },
+        { "num": "07", "h3": "« Chaque nouvel utilisateur a un onboarding légèrement différent selon qui est disponible ce jour-là »", "p": "Ça marche, plus ou moins, mais c'est tenu à bout de bras manuellement. Multipliez par 10 et ça s'effondre." },
+        { "num": "08", "h3": "« Je suis le fondateur et j'écris encore des emails froids moi-même à 23h »", "p": "Vous savez que ce n'est pas scalable. Vous n'avez juste pas encore eu le temps de le régler. C'est exactement pour ça que vous êtes là." },
+        { "num": "09", "h3": "« On a recruté un marketeur mais il passe tout son temps sur des choses qu'un système devrait faire »", "p": "Planifier des posts, tirer des rapports, envoyer des relances. Vous ne l'avez pas recruté pour ça." }
+      ]
+    },
+    "how": {
+      "label": "Comment ça marche",
+      "h2_line1": "Nous construisons le système.",
+      "h2_dim": "Vous pilotez l'entreprise.",
+      "sub": "Trois phases. Terminées en moins de 30 jours. Qui tournent indéfiniment ensuite.",
+      "steps": [
+        { "num": "01", "h3": "Diagnostic & cartographie de votre moteur de croissance", "p": "Nous auditons votre funnel actuel, identifions où les leads fuient, et déterminons exactement quelles automatisations auront le plus d'impact pour votre stade." },
+        { "num": "02", "h3": "Construire les systèmes, pas seulement les campagnes", "p": "Nous construisons des pipelines automatisés, capture de leads, enrichissement, nurturing, scoring, transfert au commercial, qui tournent 24h/24 sans personne pour les gérer." },
+        { "num": "03", "h3": "Optimiser sur des données réelles, chaque mois", "p": "Nous surveillons, testons et itérons. Vous recevez un rapport mensuel montrant exactement ce qui fonctionne, ce qui a changé, et ce qui vient ensuite." }
+      ]
+    },
+    "services": {
+      "label": "Ce que nous construisons",
+      "h2_line1": "Des systèmes marketing qui",
+      "h2_dim": "n'ont pas besoin de baby-sitter",
+      "sub": "Chaque système cible un goulot d'étranglement de croissance spécifique. Nous déployons ceux qui comptent le plus pour votre stade.",
+      "items": [
+        { "h3": "Réponse & qualification instantanée des leads", "p": "Dès qu'un lead remplit un formulaire ou boooke une démo, il reçoit une réponse personnalisée, est scoré et atterrit dans la bonne séquence, en moins de 2 minutes.", "tag": "Vélocité pipeline" },
+        { "h3": "Prospection sortante en autopilote", "p": "Listes de prospects ciblées ICP construites et enrichies automatiquement. Séquences multi-touch personnalisées qui semblent humaines mais tournent seules.", "tag": "Outbound" },
+        { "h3": "Séquences de nurturing long terme", "p": "Les leads pas encore prêts aujourd'hui sont nurturés pendant 90 jours avec du contenu adapté à leur stade et leur douleur. Ils reviennent plus chauds.", "tag": "Rétention" },
+        { "h3": "Moteur de contenu & LinkedIn", "p": "Un pipeline de contenu hebdomadaire généré à partir de votre point de vue, votre voix, vos insights, révisé et publié sans que vous écriviez de zéro.", "tag": "Inbound" },
+        { "h3": "Automatisation de l'onboarding utilisateurs", "p": "Chaque nouvel inscrit bénéficie du même excellent parcours d'onboarding, séquences déclenchées, emails de check-in et nudges d'activation basés sur leurs actions.", "tag": "Activation" },
+        { "h3": "Dashboard d'attribution full-funnel", "p": "Un seul dashboard montrant d'où viennent vos leads, comment ils progressent et ce qui convertit. Fini de deviner quels canaux valent la peine.", "tag": "Visibilité" }
+      ]
+    },
+    "results": {
+      "label": "Résultats concrets",
+      "h2_before": "Des problèmes spécifiques que nous avons ",
+      "h2_em": "déjà résolus",
+      "sub": "Pas de vagues « résultats de croissance ». Des choses vraiment pénibles qui mangeaient le temps des fondateurs. Plus maintenant.",
+      "items": [
+        { "tag": "B2B SaaS, Seed", "metric": "0→40", "label": "démos bookées par mois, le fondateur a arrêté d'écrire des emails froids lui-même", "desc": "Il passait 2 heures par nuit à prospecter manuellement. Nous avons construit un système qui trouve les bonnes personnes, personnalise l'approche et booké des appels sans qu'il y touche." },
+        { "tag": "Dev tools, Série A", "metric": "4,2×", "label": "taux de conversion trial-to-paid, les inscriptions ont arrêté de disparaître après le jour 3", "desc": "Les utilisateurs s'inscrivaient, regardaient, et disparaissaient. Nous avons construit des emails déclenchés basés sur ce qu'ils avaient fait ou non dans le produit. La plupart n'ont plus eu besoin d'un appel commercial." },
+        { "tag": "Marketplace, Pre-seed", "metric": "-71 %", "label": "de coût par lead qualifié, l'équipe commerciale a arrêté de perdre des appels sur de mauvais leads", "desc": "Ils passaient la moitié de leur journée sur des appels qui ne menaient nulle part. Nous avons construit un scoring automatique pour qu'ils ne parlent qu'aux personnes ayant déjà montré un intérêt sérieux." },
+        { "tag": "HR Tech, Série A", "metric": "11 h", "label": "libérées par semaine, leur seule marketeure a enfin pu faire du vrai marketing", "desc": "Elle passait toute sa semaine à planifier des posts, tirer des rapports et envoyer des relances à la main. Nous avons tout automatisé. Elle travaille maintenant sur la stratégie." },
+        { "tag": "Fintech, Seed", "metric": "2 min", "label": "de temps de réponse aux leads entrants qui ne refroidissaient plus avant que quelqu'un réponde", "desc": "Quelqu'un remplissait le formulaire de contact et n'entendait rien pendant des heures. Nous avons construit un enrichissement instantané et une réponse personnalisée en moins de 2 minutes. Démos bookées en hausse de 38 %." },
+        { "tag": "B2B SaaS, Pre-seed", "metric": "0 €", "label": "de budget pub, 200 inscriptions en liste d'attente en 6 semaines, entièrement organique", "desc": "Pas de budget, pas d'agence, pas de growth hacker. Juste un moteur de contenu LinkedIn construit autour des vraies opinions du fondateur, et une boucle de parrainage simple. Six semaines." }
+      ]
+    },
+    "testimonials": {
+      "label": "Côté fondateurs",
+      "h2": "En leurs mots",
+      "sub": "Des fondateurs qui faisaient du marketing manuellement, ou pas du tout, avant que nous intervenions.",
+      "items": [
+        { "quote_before": "J'écrivais des emails froids à 23h parce que personne d'autre ne le faisait et je ne savais pas comment y remédier. Trois semaines après avoir commencé à travailler ensemble, je n'avais plus pensé à la prospection une seule fois. ", "quote_strong": "Les rendez-vous se remplissaient tout seuls.", "name": "Simran Agarwal", "role": "Head of Ecosystem, Web3 Finance Club & Request Finance" },
+        { "quote_before": "Notre marketeure est vraiment bonne. Mais elle passait toute sa semaine à faire des choses qu'un tableur et quelques automatisations pourraient gérer. Je me sentais coupable. ", "quote_strong": "Maintenant elle fait vraiment ce pour quoi je l'ai recrutée.", "name": "Christophe Lassuyt", "role": "PDG & co-fondateur, Request Finance (YC W17)" }
+      ]
+    },
+    "forWho": {
+      "label": "Est-ce pour vous ?",
+      "h2_line1": "Bon profil.",
+      "h2_dim": "Mauvais profil.",
+      "sub": "On préfère être honnêtes dès le départ plutôt que de perdre votre temps ou le nôtre.",
+      "rightCard": {
+        "h3_before": "C'est pour vous ",
+        "h3_em": "si :",
+        "items": [
+          "Vous êtes un fondateur qui fait encore des tâches marketing vous-même et vous en avez assez",
+          "Vous avez des clients mais pas de vrai système pour en trouver plus",
+          "Des leads arrivent mais passent entre les mailles parce que personne ne relance assez vite",
+          "Vous avez un seul marketeur et il est coincé à faire des choses qu'un robot devrait gérer",
+          "Vous voulez quelque chose de construit correctement, pas un patchwork d'automatisations Zapier",
+          "Vous voulez voir des résultats en semaines, pas après une « phase de stratégie » de 6 mois"
+        ]
+      },
+      "wrongCard": {
+        "h3_before": "Ce n'est ",
+        "h3_dim": "pas",
+        "h3_after": " pour vous si :",
+        "items": [
+          "Vous cherchez encore ce que vous construisez et pour qui",
+          "Vous voulez que quelqu'un gère votre marketing entièrement sans aucune contribution de votre part",
+          "Vous avez besoin d'un rebranding ou de travail d'identité visuelle, ce n'est pas ce que nous faisons",
+          "Vous cherchez l'option la moins chère"
+        ]
+      }
+    },
+    "cta": {
+      "h2_line1": "Vous écrivez encore vos propres",
+      "h2_em": "emails froids à minuit ?",
+      "p": "Réservez un appel gratuit de 30 minutes. Nous regarderons ce qui mange votre temps, où les leads glissent, et vous dirons exactement ce que nous règlerions en premier et ce que ça changerait.",
+      "btn": "Voir si je suis éligible →",
+      "note": "Plus que 2 places disponibles"
+    },
+    "faqItems": [
+      { "q": "Nous sommes en pré-product/market fit. N'est-ce pas trop tôt pour nous ?", "a": "Probablement, oui. Nous travaillons mieux avec des startups qui ont déjà des clients et un processus reproductible, même manuel. Si vous cherchez encore pour qui vous construisez, revenez quand vous aurez un peu de traction. Nous serons plus utiles à ce moment-là." },
+      { "q": "En quoi est-ce différent d'embaucher un growth marketer ?", "a": "Un marketeur prend des décisions. Nous construisons l'infrastructure pour que ces décisions tournent d'elles-mêmes. Idéalement vous aurez les deux, mais nous faisons en sorte que votre marketeur passe son temps sur la stratégie, pas sur des tâches qu'un système pourrait gérer." },
+      { "q": "Travaillez-vous avec notre CRM et nos outils existants ?", "a": "Oui. Nous auditons ce que vous avez déjà et construisons autour. Nous ne vous demandons pas de tout changer. Nous connectons les pièces qui ne se parlent pas et automatisons le travail dans les interstices." },
+      { "q": "À quelle vitesse verrons-nous des résultats sur le pipeline ?", "a": "Le premier système est en ligne dans les 3 semaines. L'impact sur le pipeline dépend de votre marché et de votre situation actuelle, mais la plupart des clients voient des changements mesurables dans le volume de leads ou le temps de réponse dans le premier mois." },
+      { "q": "Que se passe-t-il quand l'engagement se termine ?", "a": "Les systèmes continuent de tourner. Nous documentons tout, transférons la pleine propriété, et pouvons rester pour la maintenance si vous le souhaitez. Vous ne dépendez jamais de nous pour que ça continue de fonctionner." },
+      { "q": "Travaillez-vous avec des entreprises pre-seed sans budget marketing ?", "a": "Parfois. Si un problème opérationnel clair peut être résolu rapidement (prospection sortante, réponse entrante, onboarding), nous pouvons faire une différence significative même avec un budget serré. L'audit vous dira si ça a du sens à votre stade." }
+    ]
+  },
+  "qualify": {
+    "meta": {
+      "title": "Voir si vous êtes éligible — vision",
+      "description": "Parlez-nous un peu de votre entreprise et nous vous dirons si nous sommes un bon match."
+    },
+    "intro": {
+      "label": "Candidature rapide",
+      "h1": "Voir si vous êtes éligible",
+      "sub": "Remplissez quelques détails sur votre entreprise. Nous examinons chaque candidature personnellement et ne prendrons contact que si nous pensons pouvoir réellement vous aider. Pas de pitch, pas de spam."
+    },
+    "form": {
+      "nameLabel": "Nom complet",
+      "namePlaceholder": "Jean Dupont",
+      "emailLabel": "Email professionnel",
+      "emailPlaceholder": "jean@entreprise.com",
+      "companyLabel": "Nom de l'entreprise",
+      "companyPlaceholder": "Acme SAS",
+      "businessTypeLabel": "Type d'entreprise",
+      "businessTypeDefault": "Sélectionner",
+      "businessTypeOptions": ["Petite ou moyenne entreprise", "Startup early-stage", "Startup en croissance (Série A+)", "Autre"],
+      "teamSizeLabel": "Taille de l'équipe",
+      "teamSizeDefault": "Sélectionner",
+      "teamSizeOptions": ["Juste moi", "2 à 5 personnes", "6 à 20 personnes", "21 à 50 personnes", "50+ personnes"],
+      "hoursLostLabel": "Heures perdues en tâches manuelles par semaine",
+      "hoursLostDefault": "Sélectionner",
+      "hoursLostOptions": ["2 à 5 heures", "5 à 10 heures", "10 à 20 heures", "20+ heures"],
+      "challengeLabel": "Quelle est la principale chose qui mange le temps de votre équipe en ce moment ?",
+      "challengePlaceholder": "Ex. Nous copions manuellement les infos client dans 3 systèmes différents à chaque nouveau client...",
+      "submitBtn": "Voir si je suis éligible →",
+      "submittingBtn": "Envoi en cours…",
+      "submitNote": "Sans engagement. Nous examinerons votre dossier et vous répondrons sous 1 jour ouvré.",
+      "successTitle": "Vous êtes sur la liste.",
+      "successText": "Nous avons bien reçu vos informations et les examinerons prochainement. Si vous êtes un bon candidat, nous vous contacterons sous 1 jour ouvré.",
+      "successBackBtn": "Retour à l'accueil"
+    },
+    "faqItems": [
+      { "q": "Que se passe-t-il après que j'ai soumis ce formulaire ?", "a": "Nous examinons votre candidature personnellement, généralement sous 1 jour ouvré. Si nous pensons pouvoir réellement vous aider, nous vous contacterons pour programmer un appel de 30 minutes. Si ce n'est pas le bon profil, nous vous le dirons aussi." },
+      { "q": "L'audit est-il vraiment gratuit ? Quel est le piège ?", "a": "C'est gratuit. Pas de piège. Nous le faisons parce que c'est le moyen le plus rapide de déterminer si travailler ensemble a du sens, des deux côtés. Si ce n'est pas un match, vous repartez en sachant exactement où vous perdez du temps." },
+      { "q": "Quelle est la durée de l'appel d'audit ?", "a": "30 minutes. Vous nous décrivez votre semaine type, nous posons quelques questions, et à la fin vous aurez une image claire de ce qui est automatisable et de l'impact que ça aurait." },
+      { "q": "Serai-je pressé de signer quoi que ce soit ?", "a": "Non. L'audit est une conversation. Nous partagerons ce que nous avons trouvé et ce que nous recommanderions. Si vous souhaitez aller de l'avant, parfait. Sinon, sans rancune et sans emails de relance." },
+      { "q": "Et si je ne suis pas sûr du type d'entreprise que je suis (PME vs startup) ?", "a": "Ne vous en faites pas. Décrivez simplement votre situation dans le formulaire. Nous déterminerons la bonne approche en fonction de ce que vous nous dites." }
+    ]
+  }
+}

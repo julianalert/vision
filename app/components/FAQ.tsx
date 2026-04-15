@@ -7,14 +7,20 @@ export type FAQItem = {
   a: string;
 };
 
-export default function FAQ({ items }: { items: FAQItem[] }) {
+type Props = {
+  items: FAQItem[];
+  label: string;
+  title: string;
+};
+
+export default function FAQ({ items, label, title }: Props) {
   const [open, setOpen] = useState<number | null>(null);
 
   return (
     <section className="faq-section">
       <div className="faq-inner">
-        <p className="section-label">FAQ</p>
-        <h2>Common questions</h2>
+        <p className="section-label">{label}</p>
+        <h2>{title}</h2>
         <div className="faq-list">
           {items.map((item, i) => (
             <div

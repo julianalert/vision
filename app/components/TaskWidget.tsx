@@ -1,8 +1,13 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import type { Dictionary } from "../[lang]/dictionaries";
 
-export default function TaskWidget() {
+type Props = {
+  dict: Dictionary["taskWidget"];
+};
+
+export default function TaskWidget({ dict }: Props) {
   const listRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -19,44 +24,24 @@ export default function TaskWidget() {
 
   return (
     <div className="hero-right">
-      <p className="widget-label">Tasks running right now</p>
+      <p className="widget-label">{dict.label}</p>
       <div className="task-list" ref={listRef}>
-        <div className="task-item done">
-          <div className="task-check" />
-          <span>Invoice sent to Harwick &amp; Co</span>
-          <span className="task-tag">Auto</span>
-        </div>
-        <div className="task-item done">
-          <div className="task-check" />
-          <span>Lead from contact form qualified &amp; routed</span>
-          <span className="task-tag">Auto</span>
-        </div>
-        <div className="task-item done">
-          <div className="task-check" />
-          <span>Weekly performance report compiled</span>
-          <span className="task-tag">Auto</span>
-        </div>
-        <div className="task-item done">
-          <div className="task-check" />
-          <span>Follow-up sent to 3 cold leads (day 7)</span>
-          <span className="task-tag">Auto</span>
-        </div>
-        <div className="task-item">
-          <div className="task-check" />
-          <span>Onboarding email sequence — new signup</span>
-          <span className="task-tag orange">Running</span>
-        </div>
-        <div className="task-item">
-          <div className="task-check" />
-          <span>Monday recap email — scheduled 6pm</span>
-          <span className="task-tag orange">Running</span>
-        </div>
+        {dict.tasks.map((task, i) => (
+          <div key={i} className={`task-item${task.done ? " done" : ""}`}>
+            <div className="task-check" />
+            <span>{task.text}</span>
+            <span className={`task-tag${task.done ? "" : " orange"}`}>
+              {task.done ? dict.autoTag : task.tag}
+            </span>
+          </div>
+        ))}
       </div>
       <div className="widget-footer">
         <span className="widget-footer-text">
-          <strong>14 hrs</strong> saved this week
+          <strong>{dict.footerNum}</strong>
+          {dict.footerText}
         </span>
-        <span className="widget-badge">All systems running</span>
+        <span className="widget-badge">{dict.footerBadge}</span>
       </div>
     </div>
   );

@@ -2,23 +2,30 @@
 
 import { useActionState } from "react";
 import { submitQualify, type FormState } from "../actions/submitQualify";
+import type { Dictionary } from "../[lang]/dictionaries";
+
+type Props = {
+  dict: Dictionary["qualify"]["form"];
+  lang: string;
+};
 
 const initialState: FormState = { status: "idle" };
 
-export default function QualifyForm() {
+export default function QualifyForm({ dict, lang }: Props) {
   const [state, formAction, pending] = useActionState(submitQualify, initialState);
 
   if (state.status === "success") {
     return (
       <div className="qualify-success">
         <div className="qualify-success-icon">✓</div>
-        <h2>You&apos;re on the list.</h2>
-        <p>
-          We&apos;ve received your details and will review them shortly. If you&apos;re a
-          good fit, we&apos;ll be in touch within 1 business day.
-        </p>
-        <a href="/" className="btn-ghost" style={{ display: "inline-block", marginTop: "8px" }}>
-          Back to home
+        <h2>{dict.successTitle}</h2>
+        <p>{dict.successText}</p>
+        <a
+          href={`/${lang}`}
+          className="btn-ghost"
+          style={{ display: "inline-block", marginTop: "8px" }}
+        >
+          {dict.successBackBtn}
         </a>
       </div>
     );
@@ -29,28 +36,28 @@ export default function QualifyForm() {
       <div className="form-row">
         <div className="form-field">
           <label className="form-label" htmlFor="name">
-            Full name <span className="form-required">*</span>
+            {dict.nameLabel} <span className="form-required">*</span>
           </label>
           <input
             className="form-input"
             type="text"
             id="name"
             name="name"
-            placeholder="Jane Smith"
+            placeholder={dict.namePlaceholder}
             required
             autoComplete="name"
           />
         </div>
         <div className="form-field">
           <label className="form-label" htmlFor="email">
-            Work email <span className="form-required">*</span>
+            {dict.emailLabel} <span className="form-required">*</span>
           </label>
           <input
             className="form-input"
             type="email"
             id="email"
             name="email"
-            placeholder="jane@company.com"
+            placeholder={dict.emailPlaceholder}
             required
             autoComplete="email"
           />
@@ -60,20 +67,20 @@ export default function QualifyForm() {
       <div className="form-row">
         <div className="form-field">
           <label className="form-label" htmlFor="company">
-            Company / business name <span className="form-required">*</span>
+            {dict.companyLabel} <span className="form-required">*</span>
           </label>
           <input
             className="form-input"
             type="text"
             id="company"
             name="company"
-            placeholder="Acme Inc."
+            placeholder={dict.companyPlaceholder}
             required
           />
         </div>
         <div className="form-field">
           <label className="form-label" htmlFor="businessType">
-            Type of business <span className="form-required">*</span>
+            {dict.businessTypeLabel} <span className="form-required">*</span>
           </label>
           <select
             className="form-input form-select"
@@ -83,12 +90,13 @@ export default function QualifyForm() {
             defaultValue=""
           >
             <option value="" disabled>
-              Select one
+              {dict.businessTypeDefault}
             </option>
-            <option value="Small or medium business">Small or medium business</option>
-            <option value="Early-stage startup">Early-stage startup</option>
-            <option value="Scaling startup (Series A+)">Scaling startup (Series A+)</option>
-            <option value="Other">Other</option>
+            {dict.businessTypeOptions.map((opt) => (
+              <option key={opt} value={opt}>
+                {opt}
+              </option>
+            ))}
           </select>
         </div>
       </div>
@@ -96,7 +104,7 @@ export default function QualifyForm() {
       <div className="form-row">
         <div className="form-field">
           <label className="form-label" htmlFor="teamSize">
-            Team size <span className="form-required">*</span>
+            {dict.teamSizeLabel} <span className="form-required">*</span>
           </label>
           <select
             className="form-input form-select"
@@ -106,18 +114,18 @@ export default function QualifyForm() {
             defaultValue=""
           >
             <option value="" disabled>
-              Select one
+              {dict.teamSizeDefault}
             </option>
-            <option value="Just me">Just me</option>
-            <option value="2–5 people">2–5 people</option>
-            <option value="6–20 people">6–20 people</option>
-            <option value="21–50 people">21–50 people</option>
-            <option value="50+ people">50+ people</option>
+            {dict.teamSizeOptions.map((opt) => (
+              <option key={opt} value={opt}>
+                {opt}
+              </option>
+            ))}
           </select>
         </div>
         <div className="form-field">
           <label className="form-label" htmlFor="hoursLost">
-            Hours lost to manual tasks per week <span className="form-required">*</span>
+            {dict.hoursLostLabel} <span className="form-required">*</span>
           </label>
           <select
             className="form-input form-select"
@@ -127,26 +135,26 @@ export default function QualifyForm() {
             defaultValue=""
           >
             <option value="" disabled>
-              Select one
+              {dict.hoursLostDefault}
             </option>
-            <option value="2–5 hours">2–5 hours</option>
-            <option value="5–10 hours">5–10 hours</option>
-            <option value="10–20 hours">10–20 hours</option>
-            <option value="20+ hours">20+ hours</option>
+            {dict.hoursLostOptions.map((opt) => (
+              <option key={opt} value={opt}>
+                {opt}
+              </option>
+            ))}
           </select>
         </div>
       </div>
 
       <div className="form-field">
         <label className="form-label" htmlFor="challenge">
-          What&apos;s the biggest thing eating your team&apos;s time right now?{" "}
-          <span className="form-required">*</span>
+          {dict.challengeLabel} <span className="form-required">*</span>
         </label>
         <textarea
           className="form-input form-textarea"
           id="challenge"
           name="challenge"
-          placeholder="e.g. We manually copy client info into 3 different systems every time we get a new customer..."
+          placeholder={dict.challengePlaceholder}
           rows={4}
           required
         />
@@ -160,11 +168,9 @@ export default function QualifyForm() {
 
       <div className="form-submit-row">
         <button type="submit" className="btn-primary" disabled={pending}>
-          {pending ? "Sending…" : "See if I qualify →"}
+          {pending ? dict.submittingBtn : dict.submitBtn}
         </button>
-        <span className="form-submit-note">
-          No commitment. We&apos;ll review and get back to you within 1 business day.
-        </span>
+        <span className="form-submit-note">{dict.submitNote}</span>
       </div>
     </form>
   );
